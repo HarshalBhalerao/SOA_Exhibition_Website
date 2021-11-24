@@ -1,0 +1,827 @@
+* {
+  margin: 0;
+  padding: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/** Navbar **/
+.navbar {
+  background-color: white;
+  opacity: 0.8;
+  top: 0%;
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+  transition: top 0.3s;
+  position: fixed;
+  border-bottom-style: solid;
+  border-bottom-color: #30302b;
+  border-bottom-width: 2px;
+}
+
+/**For nav buttons**/
+.buttons {
+  position: relative;
+  display: inline-flex;
+  float: left;
+}
+
+/**For nav buttons in the nav bar**/
+.mainButtons {
+  max-width: 2.8rem;
+  margin: 15px 5px 10px;
+  float: left;
+}
+
+/**For green button in the nav bar**/
+.greenButton {
+  max-width: 2.8rem;
+  margin: 15px 5px 10px;
+  float: left;
+  position: absolute;
+}
+
+/**Text on the Navbar**/
+.mainText {
+  text-align: center;
+  position: absolute;
+  display: block;
+  top: 20%;
+  left: 15%;
+  font-size: 2.8vw;
+  font-family: "Syncopate", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 20px;
+}
+
+/**For the SVGs and images on the landing page**/
+svg {
+  width: 8rem;
+}
+
+.imagePositions {
+  position: absolute;
+  display: inline-block;
+  top: 15%;
+  left: 17%;
+  width: 80vw;
+}
+
+.innerImages {
+  position: relative;
+  display: inline-flex;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+.imagesLP {
+  width: 8rem;
+  vertical-align: bottom;
+}
+
+/**Text styles for the student names**/
+.textBlazeface {
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "ohno-blazeface", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.textHobo {
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "hobo-std", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.textNazare {
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "nazare", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.textTenez {
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "tenez", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.textArmada {
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "armada", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.textKoho {
+  text-align: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "KoHo", sans-serif;
+}
+
+.halleyRitter {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.halleyRitter:hover {
+  color: #a69cb5;
+}
+
+.emilyRoffey {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.emilyRoffey:hover {
+  color: #e5a394;
+}
+
+.bennySun {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.bennySun:hover {
+  color: #009973;
+}
+
+.sarahThompson {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.sarahThompson:hover {
+  color: #f5e3c7;
+}
+
+.rachelWagner {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.rachelWagner:hover {
+  color: #a69cb5;
+}
+
+.ernestZarzuela {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.ernestZarzuela:hover {
+  color: #e5a394;
+}
+
+.renLam {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.renLam:hover {
+  color: #ff5233;
+}
+
+.wendyLloyd {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.wendyLloyd:hover {
+  color: #f5e3c7;
+}
+
+.chaseMartin {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.chaseMartin:hover {
+  color: #a69cb5;
+}
+
+.karrieMcewan {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.karrieMcewan:hover {
+  color: #ff5233;
+}
+
+.araPenner {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.araPenner:hover {
+  color: #e5a394;
+}
+
+.hannaReimer {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.hannaReimer:hover {
+  color: #009973;
+}
+
+.lorinAuger {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.lorinAuger:hover {
+  color: #f5e3c7;
+}
+
+.leandraBrandson {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.leandraBrandson:hover {
+  color: #ff5233;
+}
+
+.taylerBuss {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.taylerBuss:hover {
+  color: #009973;
+}
+
+.deannaDavis {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.deannaDavis:hover {
+  color: #a69cb5;
+}
+
+.edtieDoll {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.edtieDoll:hover {
+  color: #ff5233;
+}
+
+.tamikoKavanagh {
+  text-decoration: none;
+  color: #30302b;
+}
+
+.tamikoKavanagh:hover {
+  color: #f5e3c7;
+}
+
+/**For the purple circle in the navbar**/
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #a69cb5;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  transform: translateY(-50%);
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #30302b;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay-sideTextLA {
+  padding: 6px 8px 10px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #30302b;
+  display: block;
+  height: 100%;
+  width: 20vw;
+  left: 4%;
+  position: relative;
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+  cursor: pointer;
+}
+
+.overlay-sideTextLA:hover {
+  color: #f5e3c7;
+}
+
+.overlay-sideTextMessage {
+  padding: 6px 8px 10px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #30302b;
+  display: block;
+  height: 100%;
+  width: 21vw;
+  left: 4%;
+  position: relative;
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+  cursor: pointer;
+}
+
+.overlay-sideTextMessage:hover {
+  color: #ff5233;
+}
+
+.overlay-sideTextSchool {
+  padding: 6px 8px 10px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #30302b;
+  display: block;
+  height: 100%;
+  width: 17vw;
+  left: 4%;
+  position: relative;
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+  cursor: pointer;
+}
+
+.overlay-sideTextSchool:hover {
+  color: #009973;
+}
+
+.overlay-sideTextAbout {
+  padding: 6px 8px 10px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #30302b;
+  display: block;
+  height: 100%;
+  width: 17vw;
+  left: 4%;
+  position: relative;
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+  cursor: pointer;
+}
+
+.overlay-sideTextAbout:hover {
+  color: #e5a394;
+}
+
+.overlay-text-info {
+  display: block;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  font-size: 1.2vw;
+  letter-spacing: 1px;
+  transform: translateY(-50%);
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+}
+
+/**For the green shape in the nav bar**/
+.overlay2 {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #009973;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay2 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #30302b;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay2 a:hover,
+.overlay2 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay2 .closebtn2 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay-text-students {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+}
+
+#greenShapeStudents {
+  font-size: 2vw;
+}
+
+/**For student bio pages**/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: auto;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 3px 3px 3px 3px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #30302b;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 60px;
+}
+
+.overlay-studentBio {
+  padding: 6px 8px 10px;
+  color: #30302b;
+  display: block;
+  height: 100%;
+  width: 40vw;
+  left: 50%;
+  position: relative;
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+}
+
+.studentBioHeading {
+  font-size: 3vw;
+}
+
+.overlay-picture {
+  width: 25vw;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-studentBio-left {
+  padding: 6px 8px 10px;
+  color: #30302b;
+  display: block;
+  height: 100%;
+  width: 30vw;
+  left: 10%;
+  position: relative;
+  text-align: left;
+  font-family: "p22-underground", sans-serif;
+}
+
+.overlay-picture-right {
+  width: 25vw;
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/**For the image transitioning**/
+.pic-top{
+  width: 8rem;
+  animation: FadeInOut ease 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s; 
+  animation-direction: alternate;
+  vertical-align: bottom;
+}
+
+.pic-bottom{
+  width: 8rem;
+  position: absolute;
+  animation: FadeInOut2 ease 10s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+  vertical-align: bottom;
+}
+
+.pic-middle{
+  width: 8rem;
+  position: absolute;
+  animation: FadeInOut3 ease 10s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+  vertical-align: bottom;
+}
+
+@keyframes FadeInOut {
+  0% {
+      opacity:1;
+  }
+  20%{
+      opacity:1;
+  }
+  40% {
+      opacity:0;
+  }
+  60% {
+      opacity:0;
+  }
+  80%{
+      opacity:0;
+  }
+  100% {
+      opacity:0;
+  }
+}
+
+
+@keyframes FadeInOut2 {
+  0% {
+      opacity:0;
+  }
+  20%{
+      opacity:0;
+  }
+  40% {
+      opacity:1;
+  }
+  60% {
+      opacity:1;
+  }
+  80%{
+      opacity:0;
+  }
+  100% {
+      opacity:0;
+  }
+}
+
+
+@keyframes FadeInOut3 {
+  0% {
+      opacity:0;
+  }
+  20%{
+      opacity:0;
+  }
+  40% {
+      opacity:0;
+  }
+  60% {
+      opacity:0;
+  }
+  80%{
+      opacity:1;
+  }
+  100% {
+      opacity:1;
+  }
+}
+
+
+@media only screen and (min-width: 2000px) {
+  svg {
+    width: 15rem;
+  }
+  
+  .imagePositions {
+    position: absolute;
+    display: inline-block;
+    top: 15%;
+    left: 15%;
+    width: 80vw;
+  }
+  
+  .innerImages {
+    position: relative;
+    display: inline-flex;
+    vertical-align: bottom;
+    cursor: pointer;
+  }
+  
+  .imagesLP {
+    width: 15rem;
+    vertical-align: bottom;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  svg {
+    width: 15rem;
+  }
+
+  .imagesLP {
+    width: 15rem;
+    vertical-align: bottom;
+  }
+
+  .imagePositions {
+    width: 5rem;
+    top: 170px;
+    left: 15%;
+  }
+
+  /**Text on the Navbar**/
+  .mainText {
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 41%;
+    left: 2.5%;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: "Syncopate", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    padding-top: 10px;
+  }
+
+  .navbar {
+    background-color: white;
+    opacity: 0.8;
+    top: 0%;
+    width: 100%;
+    height: 8.8rem;
+    display: block;
+    z-index: 1;
+    transition: top 0.3s;
+    position: fixed;
+    border-bottom-style: solid;
+    border-bottom-color: #30302b;
+    border-bottom-width: 2px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .imagePositions {
+    width: 5rem;
+    top: 170px;
+    left: 15vw;
+  }
+  svg {
+    width: 10rem;
+  }
+
+  .imagesLP {
+    width: 10rem;
+    vertical-align: bottom;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .mainText{
+    font-size: 2vw;
+  }
+}

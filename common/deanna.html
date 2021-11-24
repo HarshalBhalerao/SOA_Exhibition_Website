@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" media = "all">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOA BFA Show 21</title>
+    <link rel="stylesheet" href="../css/landingPageStyle.css">
+    <link rel="stylesheet" href="../css/studentPages.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kex0mgv.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gss0rde.css">
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@700&display=swap" rel="stylesheet">
+    <script async src="../js/mainTransition.js" type = "module"></script>
+</head>
+<body style = "background-image: url(../img/background/backgroundshapes_cream/backgroundshapes_cream-04.jpg); background-size: 100%;">
+    <div class ="navbar">
+        <div class = "buttons">
+        <a href="landingPage.html"><img src="../img/menu-button-shapes/Updated/rectanglemenu-03.png" class = "mainButtons" / ></a>
+        <a href="#navIcon" onclick = "openNavCircle(); playAudioCircle();"><img src="../img/menu-button-shapes/shapes-10.png" class = "mainButtons" / ></a>
+        <a href="#students" onclick = "openNavStudents(); playAudioGreenShape();">
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape1.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape2.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape3.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape4.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape5.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape6.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape7.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape8.png" class = "greenButton" / >
+          <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape9.png" class = "greenButton" / >
+        </a></div><div class = "mainText">SOA HONOURS EXHIBITION</div>
+      </div>
+  
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavCircle(); playAudioLinkClose();">&times;</a>
+        <div class="overlay-content">
+          <div class = "overlay-sideTextLA" id = "landAck" onclick = "landAcknowledgement(); playAudioLinkClick();">LAND ACKNOWLEDGEMENT</div>
+          <div class = "overlay-sideTextMessage" id = "message" onclick = "message(); playAudioLinkClick();">MESSAGE FROM THE ACTING DIRECTOR</div>
+          <div class = "overlay-sideTextSchool" id = "soa" onclick = "school(); playAudioLinkClick();">SCHOOL OF ART</div>
+          <div class = "overlay-sideTextAbout" id = "about" onclick = "about(); playAudioLinkClick();">ABOUT THE SITE</div>
+        </div>
+        <div class = "overlay-text-info" id = "text"></div>  
+      </div>
+  
+      <div id="myNav2" class="overlay2">
+        <a href="javascript:void(0)" class="closebtn2" onclick="closeNavStudents(); playAudioLinkClose();">&times;</a>
+        <div class="overlay-content">
+          <table class="overlay-text-students">
+            <tr>
+              <td><a href = "lorin.html" id = "greenShapeStudents" style = "font-family: ohno-blazeface, sans-serif; font-weight: 100; font-size: 2.1vw;" onclick = "playAudioLinkClick();">LORIN AUGER</a></td>
+              <td><a href = "ren.html" id = "greenShapeStudents" style = "font-family: nazare, sans-serif; font-weight: 600;" onclick = "playAudioLinkClick();">REN LAM</a></td>
+              <td><a href = "halley.html" id = "greenShapeStudents" style = "font-family: tenez, sans-serif; font-weight: 900;" onclick = "playAudioLinkClick();">HALLEY RITTER</a></td>
+            </tr>
+            <tr>
+              <td><a href = "leandra.html" id = "greenShapeStudents" style = "font-family: hobo-std, sans-serif; font-weight: 400; font-size: 1.8vw;" onclick = "playAudioLinkClick();">LEANDRA BRANDSON</a></td>
+              <td><a href = "wendy.html" id = "greenShapeStudents" style = "font-family: KoHo, sans-serif" onclick = "playAudioLinkClick();">WENDY LLOYD</a></td>
+              <td><a href = "emily.html" id = "greenShapeStudents" style = "font-family: armada, sans-serif; font-weight: 700; font-size: 1.9vw;" onclick = "playAudioLinkClick();">EMILY ROFFEY</a></td>
+            </tr>
+            <tr>
+              <td><a href = "tayler.html" id = "greenShapeStudents" style = "font-family: nazare, sans-serif; font-weight: 600;" onclick = "playAudioLinkClick();">TAYLER BUSS</a></td>
+              <td><a href = "chase.html" id = "greenShapeStudents" style = "font-family: armada, sans-serif; font-weight: 700; font-size: 1.9vw;" onclick = "playAudioLinkClick();">CHASE MARTIN</a></td>
+              <td><a href = "benny.html" id = "greenShapeStudents" style = "font-family: ohno-blazeface, sans-serif; font-weight: 100; font-size: 2.1vw;" onclick = "playAudioLinkClick();">BENNY SUN</a></td>
+            </tr>
+            <tr>
+              <td><a href = "deanna.html" id = "greenShapeStudents" style = "font-family: tenez, sans-serif; font-weight: 900;" onclick = "playAudioLinkClick();">DEANNA DAVIS</a></td>
+              <td><a href = "karrie.html" id = "greenShapeStudents" style = "font-family: hobo-std, sans-serif; font-weight: 400; font-size: 1.8vw;" onclick = "playAudioLinkClick();">KARRIE McEWAN</a></td>
+              <td><a href = "sarah.html" id = "greenShapeStudents" style = "font-family: KoHo, sans-serif" onclick = "playAudioLinkClick();">SARAH THOMPSON</a></td>
+            </tr>
+            <tr>
+              <td><a href = "edtie.html" id = "greenShapeStudents" style = "font-family: armada, sans-serif; font-weight: 700; font-size: 1.9vw;" onclick = "playAudioLinkClick();">EDTIE DOLL</a></td>
+              <td><a href = "ara.html" id = "greenShapeStudents" style = "font-family: nazare, sans-serif; font-weight: 600;" onclick = "playAudioLinkClick();">ARA PENNER</a></td>
+              <td><a href = "rachel.html" id = "greenShapeStudents" style = "font-family: tenez, sans-serif; font-weight: 900;" onclick = "playAudioLinkClick();">RACHEL WAGNER</a></td>
+            </tr>
+            <tr>
+              <td><a href = "tamiko.html" id = "greenShapeStudents" style = "font-family: KoHo, sans-serif" onclick = "playAudioLinkClick();">TAMIKO KAVANAGH</a></td>
+              <td><a href = "hanna.html" id = "greenShapeStudents" style = "font-family: ohno-blazeface, sans-serif; font-weight: 100; font-size: 2.1vw;" onclick = "playAudioLinkClick();">HANNA REIMER</a></td>
+              <td><a href = "ernest.html" id = "greenShapeStudents" style = "font-family: hobo-std, sans-serif; font-weight: 400; font-size: 1.8vw;" onclick = "playAudioLinkClick();">ERNEST ZARZUELA</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class = "studentNameDeanna" style = "font-family: tenez, sans-serif; font-weight: 900;">DEANNA DAVIS</div>
+    <div class = "studentBio"><p style = "font-family: p22-underground, sans-serif;">I have been working on this for 20 years. 
+        It is a brief history of cinema told through oil paintings and text of experiences from my life. If my math is right, which it almost never is, after this is finished no one will be able to see these movies without thinking about me. 
+        Hopefully, everyone that never understood what I was doing and why, now has some resolution. Telling your supportive family that you want to pursue an art career is like telling them you want to buy a ferret. 
+        Why? I believe in what I’m doing, I’ve stood my ground, proved to myself and everyone that I thought I needed to prove myself to. That this is worth it. It is. I’m very impressive. I didn’t give up even after all those times I gave up.
+         All the people that tell you that you can’t like Adrian in Rocky 4 will change their minds after they see you achieve your goal. It’s deeper that, they don’t know. They haven’t a clue that the art world is a multi billion dollar business.
+          To be fair, I don’t understand how they can do what they do, I’m not like I’m actively trying. I’m grateful for having a creative mind, I’m grateful for having the means to express myself. With this project coming to a close, I’m happy to move forward. 
+        May the Schwartz be with you.<br><br></p>
+    </div>
+    
+
+    <div class = "rowStudent">
+        <div class = "columnStudent">
+            <div class = "svg" style = "background-color: #a69cb5"><img src="../img/studentImages/Davis/Annie.jpg" class = "layout1Image2" onclick = "openNavImage(); currentSlide(2); playAudioLinkClick();" style = "cursor: pointer; top: 20%;"
+            ></div><div class = "svg" style = "background-color: #009973;"></div><img src = "../img/studentImages/Davis/Apocalypse Now.jpg" class = "layout1Image1" onclick = "openNavImage(); currentSlide(3); playAudioLinkClick();" style = "cursor: pointer;">
+            <img src = "../img/studentImages/Davis/Edward Scissorhands.jpg" class = "svg" onclick = "openNavImage(); currentSlide(5); playAudioLinkClick();" style = "cursor: pointer;"><div class = "svg" style = "background-color: #f5e3c7;"
+            ></div><div class = "svg" style = "background-color: #e5a394"><img src="../img/studentImages/Davis/Elf.jpg" class = "layout1Image2" onclick = "openNavImage(); currentSlide(6); playAudioLinkClick();" style = "cursor: pointer; top: 15%; height: 10vw;"
+            ></div><div class = "svg" style = "background-color: #ff5233;"></div><div class = "svg" style = "background-color: #009973;"
+            ></div><div class = "svg" style = "background-color: #ff5233"><img src="../img/studentImages/Davis/Rocky 4.jpg" class = "layout1Image2" onclick = "openNavImage(); currentSlide(8); playAudioLinkClick();" style = "cursor: pointer; top: 30%;"
+            ></div><div class = "svg" style = "background-color: #a69cb5;"></div><img src = "../img/studentImages/Davis/Young Frankenstein.jpg" class = "svg" onclick = "openNavImage(); currentSlide(9); playAudioLinkClick();" style = "cursor: pointer;">
+        </div>
+    </div>
+
+    <div id="imageNav" class="imageNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavImage(); playAudioLinkClose();">&times;</a>
+        <div class="overlay-content2">
+            <div class="container">
+                <div class="mySlides">
+                    <img src="../img/studentImages/Davis/A.jpg" style="width: 57.313vw; height: 63.899vh;" class = "cursor" alt = "<i>Phase 1-Group</i><br>Oil on canvas, various sizes.">
+                  </div>
+                
+                  <div class="mySlides">
+                    <img src="../img/studentImages/Davis/Annie.jpg" style="width: 28.696vw; height: 63.899vh;" class = "cursor" alt = "<i>Annie</i> <br>Oil on canvas, 30 x 40 in, 2021.">
+                  </div>
+                
+                  <div class="mySlides">
+                    <img src="../img/studentImages/Davis/Apocalypse Now.jpg" style="width: 73.318vw; height: 63.899vh;" class = "cursor" alt = "<i>Apocalypse Now</i> <br>Oil on canvas, 12 x 36 in, 2021.">
+                  </div>
+                    
+                  <div class="mySlides">
+                    <img src="../img/studentImages/Davis/Dark Knight.jpg" style="width: 47.515vw; height: 63.899vh;" class = "cursor" alt = "<i>The Dark Knight</i> <br>Oil on canvas, 30 x 40 in, 2021.">
+                  </div>
+                
+                  <div class="mySlides">
+                    <img src="../img/studentImages/Davis/Edward Scissorhands.jpg" style="width: 28.367vw; height: 63.899vh;" class = "cursor" alt = "<i>Edward Scissorhands</i><br>Oil on canvas, 16 x 20 in, 2021.">
+                  </div>
+                    
+                  <div class="mySlides">
+                    <img src="../img/studentImages/Davis/Elf.jpg" style="width: 42.882vw; height: 63.899vh;" class = "cursor" alt = "<i>Elf</i><br> Oil on canvas, 18 x 30 in, 2021.">
+                  </div>
+                    
+                  <div class="mySlides">
+                      <img src="../img/studentImages/Davis/Hotel Transylvania 3.jpg" style="width: 28.696vw; height: 63.899vh;" class = "cursor" alt = "<i>Hotel Transylvania 3</i><br>Oil on canvas, 11 x 14 in, 2020.">
+                  </div>
+  
+                  <div class="mySlides">
+                      <img src="../img/studentImages/Davis/Rocky 4.jpg" style="width: 47.515vw; height: 63.899vh;" class = "cursor" alt = "<i>Rocky 4</i><br>Oil on canvas, 18 x 30 in 2021.">
+                  </div>
+  
+                  <div class="mySlides">
+                      <img src="../img/studentImages/Davis/Young Frankenstein.jpg" style="width: 28.367vw; height: 63.899vh;" class = "cursor" alt = "<i>Young Frankenstein</i><br>Oil on canvas, 30 x 40 in, 2021.">
+                  </div>
+                <a class="prev" onclick="plusSlides(-1); playAudioLinkClick();">❮</a>
+                <a class="next" onclick="plusSlides(1); playAudioLinkClick();">❯</a>
+              
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="circle">
+        <source src="../audio/Purple 1.WAV" type="audio/wav">
+    </audio>
+    <audio id="greenShape">
+        <source src="../audio/Green 1.WAV" type="audio/wav">
+    </audio>
+  
+    <audio id="linkClick">
+        <source src="../audio/LINK CLICK.WAV" type="audio/wav">
+    </audio>
+     <audio id="linkClose">
+        <source src="../audio/LINK CLOSE.WAV" type="audio/wav">
+    </audio>
+
+    <script>
+        function openNavCircle() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+      
+        function closeNavCircle() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+      
+        function openNavStudents() {
+            document.getElementById("myNav2").style.height = "100%";
+        }
+      
+        function closeNavStudents() {
+            document.getElementById("myNav2").style.height = "0%";
+        }
+
+        function openNavImage() {
+            document.getElementById("imageNav").style.width = "100%";
+        }
+      
+        function closeNavImage() {
+            document.getElementById("imageNav").style.width = "0%";
+        }
+      
+        function landAcknowledgement() {
+            document.getElementById("text").innerHTML = "The University of Manitoba campuses are located on original lands of Anishinaabeg " +
+            "Cree, Oji-Cree, Dakota and Dene peoples, and on the homeland of the Métis Nation. We respect the Treaties that were made on these " +
+            "territories, we acknowledge the harms and mistakes of the past, and we dedicate ourselves to move forward in partnership with Indigenous" +
+            " communities in a spirit of reconciliation and collaboration.";
+            document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+        }
+      
+        function message(){
+            document.getElementById("text").innerHTML = "This academic year was like no other in living memory. In addition to the rigorous demands of " +
+            "completing a university-level art program, during this past year you also navigated a global pandemic, isolation from friends and family, and " +
+            "daily worries about your health. Yet you were able to sift through these many challenges and captured consequential moments, translated them, and" +
+            " brought them into the world with gorgeous, thought-provoking works that inspire people to keep thinking, keep looking, and keep moving forward.<br><br>" +
+            "Despite the difference of the format of this honour studio exhibition from prior years’ exhibitions, we are very pleased with the outcome, as it provides" + 
+            " a new opportunity for students to reach a wider audience and to provide a lasting document of your outstanding achievement.<br><br>" + 
+            "What you have done is nothing short of amazing. From all of us in the School of Art–Congratulations!<br><br>" + "Dr. Edward Jurkowski<br>Acting Director, School of Art";
+            document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+        }
+      
+        function school(){
+            document.getElementById("text").innerHTML = "The School of Art at the University of Manitoba offers dynamic programs where students gain hands-on experience" +
+            " across a broad range of artistic disciplines. Our focus is on preparing students for a successful career in the arts at a time when creativity, critical thinking " +
+            "and complex problem solving are in greatest demand.<br><br>"+
+            "Alumni of our MFA, BFA, Diploma of Art and BFA in Art History programs have gone on to thriving careers as visual artists, curators, designers, art historians, " +
+            "gallerists, educators, arts administrators, cultural workers and many other professions in media and technology.<br><br>" +
+            "At the School of Art, we approach visual learning through an interdisciplinary lens, where studio art and art history are integrated, ensuring students have a broad " +
+            "understanding of today’s rich contemporary art landscape and have the tools to build a strong career path.";
+            document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+        }
+      
+        function about(){
+            document.getElementById("text").innerHTML = "This exhibition features the work of graduating Honours students from the University of Manitoba’s School of Art. " +
+            "The site was designed by School of students Rachel Wagner and Ernest Zarzuela;developed and programmed by Computer Science student Harshal Bhalerao; with audio by Desautels Faculty of Music student Alison Burdeny.<br><br>" +
+            "This is the first online version of the School of Art’s BFA Exhibition— a tradition at the SoA since 2012 —and the online home for future BFA Exhibitions.<br><br>" +
+            "School of Art contact info: fineart@umanitoba.ca";
+      
+            document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+        }
+          
+        var circle_audio = document.getElementById("circle"); 
+      
+        function playAudioCircle() { 
+            circle_audio.play(); 
+        } 
+      
+        var greenShape_audio = document.getElementById("greenShape"); 
+      
+        function playAudioGreenShape() { 
+            greenShape_audio.play(); 
+        } 
+ 
+      
+        var linkClick_audio = document.getElementById("linkClick"); 
+    
+        function playAudioLinkClick() { 
+            linkClick_audio.play(); 
+        } 
+
+        var linkClose_audio = document.getElementById("linkClose"); 
+    
+        function playAudioLinkClose() { 
+            linkClose_audio.play(); 
+        } 
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("cursor");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex-1].style.display = "block";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+</body>
+</html>

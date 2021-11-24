@@ -1,0 +1,1701 @@
+.layout1Image1 {
+  width: 18.4vw;
+  position: relative;
+  display: inline-block;
+  height: 14vw;
+  vertical-align: bottom;
+}
+
+.svg {
+  position: relative;
+  display: inline-block;
+  width: 9.2vw;
+  height: 14vw;
+  vertical-align: bottom;
+}
+
+.layout1Image2 {
+  max-width: 70%;
+  max-height: 70%;
+  position: absolute;
+  display: inline-block;
+  top: 20%;
+  left: 15%;
+}
+
+.columnStudent {
+  position: relative;
+  display: block;
+}
+
+.rowStudent {
+  position: fixed;
+  display:inline-block;
+  top: 90px;
+  left: 60%;
+  width: 40%;
+}
+
+.imageNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.95;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.imageNav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.imageNav a:hover {
+  color: #f1f1f1;
+}
+
+.imageNav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev{
+  border-radius: 3px 0 0 3px;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 20px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  padding: 46px 16px;
+  color: white;
+  font-family: "p22-underground", sans-serif;
+}
+
+.studentName {
+  position: fixed;
+  display: block;
+  top: 295px;
+  left: -20mm;
+  font-size: 40px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameSarah{
+  position: fixed;
+  display: block;
+  top: 295px;
+  left: -20mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameBenny{
+  position: fixed;
+  display: block;
+  top: 230px;
+  left: -15mm;
+  font-size: 50px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameLorin {
+  position: fixed;
+  display: block;
+  top: 250px;
+  left: -15mm;
+  font-size: 50px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameTayler {
+  position: fixed;
+  display: block;
+  top: 270px;
+  left: -15mm;
+  font-size: 50px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameHalley {
+  position: fixed;
+  display: block;
+  top: 295px;
+  left: -15mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameRachel{
+  position: fixed;
+  display: block;
+  top: 305px;
+  left: -15mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameKarrie{
+  position: fixed;
+  display: block;
+  top: 285px;
+  left: -15mm;
+  font-size: 50px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameDeanna {
+  position: fixed;
+  display: block;
+  top: 290px;
+  left: -15mm;
+  font-size: 50px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameEdtie {
+  position: fixed;
+  display: block;
+  top: 260px;
+  left: -15mm;
+  font-size: 50px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameChase {
+  position: fixed;
+  display: block;
+  top: 275px;
+  left: -15mm;
+  font-size: 40px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameTamiko {
+  position: fixed;
+  display: block;
+  top: 300px;
+  left: -20mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameRen {
+  position: fixed;
+  display: block;
+  top: 195px;
+  left: 0mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameWendy {
+  position: fixed;
+  display: block;
+  top: 265px;
+  left: -10mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameAra{
+  position: fixed;
+  display: block;
+  top: 245px;
+  left: -20mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentNameHanna{
+  position: fixed;
+  display: block;
+  top: 265px;
+  left: -20mm;
+  font-size: 45px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.studentBio {
+  position: absolute;
+  display: block;
+  top: 120px; 
+  height: 70%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  left: 15%;
+  width: 40%;
+  font-size: 1rem;
+  font-family: p22-underground, sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #818181; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6b6b6b; 
+}
+
+.overlay-content2 {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  transform: translateY(-50%);
+}
+
+.videoStudent {
+  position: relative;
+  display: inline-block;
+  width: 27.65vw;
+  height: 14vw;
+  vertical-align: bottom;
+}
+
+.videoLayout{
+  width: 25.4vw;
+  position: relative;
+  display: inline-block;
+  height: 14vw;
+  vertical-align: bottom;
+}
+
+.captionVideo{
+  position: relative;
+  display: block;
+  top: 68%;
+  color: white;
+  padding: 46px 16px;
+}
+
+.videoLayout2{
+  position: relative;
+  top: 0%;
+  width: 64.033vw;
+  height: 63.899vh;
+}
+
+@media screen and (min-width: 2000px){
+  .studentName {
+    position: fixed;
+    display: block;
+    top: 390px;
+    left: -30mm;
+    font-size: 60px;
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRachel{
+    position: fixed;
+    display: block;
+    top: 390px;
+    left: -15mm;
+    font-size: 65px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameBenny{
+    position: fixed;
+    display: block;
+    top: 275px;
+    left: -15mm;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameSarah{
+    position: fixed;
+    display: block;
+    top: 395px;
+    left: -20mm;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameHalley {
+    position: fixed;
+    display: block;
+    top: 375px;
+    left: -15mm;
+    font-size: 65px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameKarrie{
+    position: fixed;
+    display: block;
+    top: 355px;
+    left: -15mm;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameLorin {
+    position: fixed;
+    display: block;
+    top: 335px;
+    left: -10mm;
+    font-size: 80px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTayler {
+    position: fixed;
+    display: block;
+    top: 330px;
+    left: -10mm;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameDeanna {
+    position: fixed;
+    display: block;
+    top: 370px;
+    left: -10mm;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+  
+  .studentNameEdtie {
+    position: fixed;
+    display: block;
+    top: 310px;
+    left: -10mm;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTamiko {
+    position: fixed;
+    display: block;
+    top: 400px;
+    left: -20mm;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRen {
+    position: fixed;
+    display: block;
+    top: 250px;
+    left: 10mm;
+    font-size: 75px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameWendy {
+    position: fixed;
+    display: block;
+    top: 335px;
+    left: -10mm;
+    font-size: 65px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameAra{
+    position: fixed;
+    display: block;
+    top: 305px;
+    left: -20mm;
+    font-size: 65px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameChase {
+    position: fixed;
+    display: block;
+    top: 375px;
+    left: -15mm;
+    font-size: 65px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameHanna{
+    position: fixed;
+    display: block;
+    top: 335px;
+    left: -20mm;
+    font-size: 65px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentBio{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .studentName {
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -30mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRachel{
+    position: fixed;
+    display: block;
+    top: 305px;
+    left: -25mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameSarah{
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -25mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameHalley {
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -25mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameDeanna {
+    position: fixed;
+    display: block;
+    top: 260px;
+    left: -20mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameKarrie{
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -25mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameEdtie {
+    position: fixed;
+    display: block;
+    top: 255px;
+    left: -20mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTamiko {
+    position: fixed;
+    display: block;
+    top: 300px;
+    left: -25mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameWendy {
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -25mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .studentName {
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -30mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameKarrie{
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -30mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRachel{
+    position: fixed;
+    display: block;
+    top: 305px;
+    left: -30mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameLorin {
+    position: fixed;
+    display: block;
+    top: 250px;
+    left: -20mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameSarah{
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -30mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTayler {
+    position: fixed;
+    display: block;
+    top: 270px;
+    left: -20mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameDeanna {
+    position: fixed;
+    display: block;
+    top: 260px;
+    left: -20mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTamiko {
+    position: fixed;
+    display: block;
+    top: 300px;
+    left: -30mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRen {
+    position: fixed;
+    display: block;
+    top: 195px;
+    left: -5mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameChase {
+    position: fixed;
+    display: block;
+    top: 275px;
+    left: -25mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+}
+
+@media screen and (max-width: 800px){
+  .studentName {
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -35mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRachel{
+    position: fixed;
+    display: block;
+    top: 305px;
+    left: -35mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameSarah{
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -35mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameBenny{
+    position: fixed;
+    display: block;
+    top: 230px;
+    left: -20mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameHalley {
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -35mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameKarrie{
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -35mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameLorin {
+    position: fixed;
+    display: block;
+    top: 250px;
+    left: -25mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTayler {
+    position: fixed;
+    display: block;
+    top: 270px;
+    left: -25mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameDeanna {
+    position: fixed;
+    display: block;
+    top: 260px;
+    left: -25mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameEdtie {
+    position: fixed;
+    display: block;
+    top: 255px;
+    left: -25mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTamiko {
+    position: fixed;
+    display: block;
+    top: 300px;
+    left: -40mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRen {
+    position: fixed;
+    display: block;
+    top: 195px;
+    left: -10mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameWendy {
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -30mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameHanna{
+    position: fixed;
+    display: block;
+    top: 265px;
+    left: -30mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+}
+
+@media screen and (max-width: 700px){
+  .studentName {
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -40mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRachel{
+    position: fixed;
+    display: block;
+    top: 305px;
+    left: -38mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameSarah{
+    position: fixed;
+    display: block;
+    top: 295px;
+    left: -40mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameBenny{
+    position: fixed;
+    display: block;
+    top: 230px;
+    left: -25mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameKarrie{
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -40mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameLorin {
+    position: fixed;
+    display: block;
+    top: 250px;
+    left: -30mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameChase {
+    position: fixed;
+    display: block;
+    top: 275px;
+    left: -30mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameAra{
+    position: fixed;
+    display: block;
+    top: 245px;
+    left: -25mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTayler {
+    position: fixed;
+    display: block;
+    top: 270px;
+    left: -30mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameDeanna {
+    position: fixed;
+    display: block;
+    top: 260px;
+    left: -30mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameEdtie {
+    position: fixed;
+    display: block;
+    top: 255px;
+    left: -30mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameWendy {
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -35mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+}
+ 
+@media screen and (max-width: 600px){
+  .rowStudent {
+    position: absolute;
+    display: inline-block;
+    top: 160px;
+    left: 15mm;
+    width: 80%;
+  }
+
+  .studentNameSarah{
+    position: fixed;
+    display: block;
+    top: 335px;
+    left: -48mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRachel{
+    position: fixed;
+    display: block;
+    top: 345px;
+    left: -47mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentName{
+    position: fixed;
+    display: block;
+    top: 290px;
+    left: -35mm;
+    font-size: 30px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+  }
+
+  .studentNameBenny{
+    position: fixed;
+    display: block;
+    top: 270px;
+    left: -31mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameHalley {
+    position: fixed;
+    display: block;
+    top: 335px;
+    left: -44mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameKarrie{
+    position: fixed;
+    display: block;
+    top: 325px;
+    left: -45mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameChase {
+    position: fixed;
+    display: block;
+    top: 315px;
+    left: -40mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameLorin {
+    position: fixed;
+    display: block;
+    top: 290px;
+    left: -37mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameHanna{
+    position: fixed;
+    display: block;
+    top: 305px;
+    left: -40mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameAra{
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -33mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTayler {
+    position: fixed;
+    display: block;
+    top: 310px;
+    left: -40mm;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameDeanna {
+    position: fixed;
+    display: block;
+    top: 320px;
+    left: -39mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameEdtie {
+    position: fixed;
+    display: block;
+    top: 285px;
+    left: -33mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameTamiko {
+    position: fixed;
+    display: block;
+    top: 320px;
+    left: -43mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameRen {
+    position: fixed;
+    display: block;
+    top: 235px;
+    left: -20mm;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .studentNameWendy {
+    position: fixed;
+    display: block;
+    top: 290px;
+    left: -35mm;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .videoStudent {
+    position: relative;
+    display: inline-block;
+    width: 89.7px;
+    height: 136.5px;
+    vertical-align: bottom;
+  }
+
+  .videoLayout{
+    max-width: 90%;
+    max-height: 70%;
+    position: relative;
+    display: inline-block;
+    top: 20%;
+    left: 15%;
+  }
+
+  .layout1Image1 {
+    width: 179.4px;
+    position: relative;
+    display: inline-block;
+    height: 136.5px;
+    vertical-align: bottom;
+  }
+  
+  .svg {
+    position: relative;
+    display: inline-block;
+    width: 89.7px;
+    height: 136.5px;
+    vertical-align: bottom;
+  }
+  
+  .layout1Image2 {
+    max-width: 70%;
+    max-height: 70%;
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 15%;
+  }
+
+  .studentBio {
+    position: absolute;
+    display: block;
+    float:left;
+    top: 580px; 
+    left: 15mm; 
+    width: 80%;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .rowStudent {
+    position: absolute;
+    display: inline-block;
+    top: 160px;
+    left: 15mm;
+    width: 60%;
+  }
+
+  .studentName{
+    position: fixed;
+    display: block;
+    top: 290px;
+    left: -35mm;
+    font-size: 30px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+  }
+
+  .videoStudent {
+    position: relative;
+    display: inline-block;
+    width: 13.8vw;
+    height: 21vw;
+    vertical-align: bottom;
+  }
+  
+
+  .videoLayout{
+    max-width: 90%;
+    max-height: 70%;
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 15%;
+  }
+
+  .layout1Image1 {
+    width: 27.6vw;
+    position: relative;
+    display: inline-block;
+    height: 21vw;
+    vertical-align: bottom;
+  }
+  
+  .svg {
+    position: relative;
+    display: inline-block;
+    width: 13.8vw;
+    height: 21vw;
+    vertical-align: bottom;
+  }
+  
+  .layout1Image2 {
+    max-width: 70%;
+    max-height: 70%;
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 15%;
+  }
+
+  .studentBio {
+    position: absolute;
+    display: block;
+    float:left;
+    top: 30rem; 
+    left: 15mm; 
+    width: 60%;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .studentBio {
+    position: absolute;
+    display: block;
+    float:left;
+    top: 26rem; 
+    left: 15mm; 
+    width: 60%;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .studentBio {
+    position: absolute;
+    display: block;
+    float:left;
+    top: 23rem; 
+    left: 15mm; 
+    width: 60%;
+    font-size: 3vw;
+  }
+}

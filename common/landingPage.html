@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" media = "all">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOA BFA Show 21</title>
+    <link rel="stylesheet" href="../css/landingPageStyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kex0mgv.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gss0rde.css">
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@700&display=swap" rel="stylesheet">
+    <script async src="../js/mainTransition.js" type = "module"></script>
+</head>
+<body>
+    <div class ="navbar">
+      <div class = "buttons">
+      <a href="landingPage.html"><img src="../img/menu-button-shapes/Updated/rectanglemenu-03.png" class = "mainButtons" / ></a>
+      <a href="#navIcon" onclick = "openNavCircle(); playAudioCircle();"><img src="../img/menu-button-shapes/shapes-10.png" class = "mainButtons" / ></a>
+      <a href="#students" onclick = "openNavStudents(); playAudioGreenShape();">
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape1.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape2.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape3.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape4.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape5.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape6.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape7.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape8.png" class = "greenButton" / >
+        <img src="../img/menu-button-shapes/Updated/green shape with white background/greenshape9.png" class = "greenButton" / >
+      </a></div><div class = "mainText">SOA HONOURS EXHIBITION</div>
+    </div>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavCircle(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-sideTextLA" id = "landAck" onclick = "landAcknowledgement(); playAudioLinkClick();">LAND ACKNOWLEDGEMENT</div>
+        <div class = "overlay-sideTextMessage" id = "message" onclick = "message(); playAudioLinkClick();">MESSAGE FROM THE ACTING DIRECTOR</div>
+        <div class = "overlay-sideTextSchool" id = "soa" onclick = "school(); playAudioLinkClick();">SCHOOL OF ART</div>
+        <div class = "overlay-sideTextAbout" id = "about" onclick = "about(); playAudioLinkClick();">ABOUT THE SITE</div>
+      </div>
+      <div class = "overlay-text-info" id = "text"></div>  
+    </div>
+
+    <div id="myNav2" class="overlay2">
+      <a href="javascript:void(0)" class="closebtn2" onclick="closeNavStudents(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <table class="overlay-text-students">
+          <tr>
+            <td><a href = "lorin.html" id = "greenShapeStudents" style = "font-family: ohno-blazeface, sans-serif; font-weight: 100; font-size: 2.1vw;" onclick = "playAudioLinkClick();">LORIN AUGER</a></td>
+            <td><a href = "ren.html" id = "greenShapeStudents" style = "font-family: nazare, sans-serif; font-weight: 600;" onclick = "playAudioLinkClick();">REN LAM</a></td>
+            <td><a href = "halley.html" id = "greenShapeStudents" style = "font-family: tenez, sans-serif; font-weight: 900;" onclick = "playAudioLinkClick();">HALLEY RITTER</a></td>
+          </tr>
+          <tr>
+            <td><a href = "leandra.html" id = "greenShapeStudents" style = "font-family: hobo-std, sans-serif; font-weight: 400; font-size: 1.8vw;" onclick = "playAudioLinkClick();">LEANDRA BRANDSON</a></td>
+            <td><a href = "wendy.html" id = "greenShapeStudents" style = "font-family: KoHo, sans-serif" onclick = "playAudioLinkClick();">WENDY LLOYD</a></td>
+            <td><a href = "emily.html" id = "greenShapeStudents" style = "font-family: armada, sans-serif; font-weight: 700; font-size: 1.9vw;" onclick = "playAudioLinkClick();">EMILY ROFFEY</a></td>
+          </tr>
+          <tr>
+            <td><a href = "tayler.html" id = "greenShapeStudents" style = "font-family: nazare, sans-serif; font-weight: 600;" onclick = "playAudioLinkClick();">TAYLER BUSS</a></td>
+            <td><a href = "chase.html" id = "greenShapeStudents" style = "font-family: armada, sans-serif; font-weight: 700; font-size: 1.9vw;" onclick = "playAudioLinkClick();">CHASE MARTIN</a></td>
+            <td><a href = "benny.html" id = "greenShapeStudents" style = "font-family: ohno-blazeface, sans-serif; font-weight: 100; font-size: 2.1vw;" onclick = "playAudioLinkClick();">BENNY SUN</a></td>
+          </tr>
+          <tr>
+            <td><a href = "deanna.html" id = "greenShapeStudents" style = "font-family: tenez, sans-serif; font-weight: 900;" onclick = "playAudioLinkClick();">DEANNA DAVIS</a></td>
+            <td><a href = "karrie.html" id = "greenShapeStudents" style = "font-family: hobo-std, sans-serif; font-weight: 400; font-size: 1.8vw;" onclick = "playAudioLinkClick();">KARRIE McEWAN</a></td>
+            <td><a href = "sarah.html" id = "greenShapeStudents" style = "font-family: KoHo, sans-serif" onclick = "playAudioLinkClick();">SARAH THOMPSON</a></td>
+          </tr>
+          <tr>
+            <td><a href = "edtie.html" id = "greenShapeStudents" style = "font-family: armada, sans-serif; font-weight: 700; font-size: 1.9vw;" onclick = "playAudioLinkClick();">EDTIE DOLL</a></td>
+            <td><a href = "ara.html" id = "greenShapeStudents" style = "font-family: nazare, sans-serif; font-weight: 600;" onclick = "playAudioLinkClick();">ARA PENNER</a></td>
+            <td><a href = "rachel.html" id = "greenShapeStudents" style = "font-family: tenez, sans-serif; font-weight: 900;" onclick = "playAudioLinkClick();">RACHEL WAGNER</a></td>
+          </tr>
+          <tr>
+            <td><a href = "tamiko.html" id = "greenShapeStudents" style = "font-family: KoHo, sans-serif" onclick = "playAudioLinkClick();">TAMIKO KAVANAGH</a></td>
+            <td><a href = "hanna.html" id = "greenShapeStudents" style = "font-family: ohno-blazeface, sans-serif; font-weight: 100; font-size: 2.1vw;" onclick = "playAudioLinkClick();">HANNA REIMER</a></td>
+            <td><a href = "ernest.html" id = "greenShapeStudents" style = "font-family: hobo-std, sans-serif; font-weight: 400; font-size: 1.8vw;" onclick = "playAudioLinkClick();">ERNEST ZARZUELA</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="navLorin" class="sidenav" style = "background-color: #ff5233">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavLorin(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio-left" style = "color: #f5e3c7; font-family: ohno-blazeface, sans-serif; width: 48vw;"><h2 class = "studentBioHeading" style = "color:#f5e3c7; font-size: 4vw; letter-spacing: 3px;">LORIN AUGER</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">An archive of everyday experience, a ritual to 
+            partake in consistently, and a coping mechanism 
+            through which to enjoy existence. Writing, 
+            drawing, objects, and ritual are cornerstones of 
+            Auger’s work. Their style is naive and colorful 
+            by nature and includes icons such as chimneys, 
+            bricks, buildings, candles, and other everyday 
+            occurrences. This is all achieved with pencil 
+            crayon, alcohol-based markers, and gel pen. </p>
+        </div>
+        <a href = "lorin.html" onclick = "playAudioLinkClick();" style = "background-color:#f5e3c7; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #ff5233; text-align: left; text-decoration: underline; width: 18%; left: 40%; position: relative;">Continue to Lorin's Page</a>
+        </div>
+        <img src="../img/studentImages/auger/lorina-1.png" alt="" class = "overlay-picture-right">
+    </div>
+
+    <div id="navLeandra" class="sidenav" style = "background-color: #e5a394;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavLeandra(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio-left" style = "color: #ff5233; font-family: hobo-std, sans-serif; width: 50vw;"><h2 class = "studentBioHeading" style = "color:#ff5233; font-size: 3.5vw;">LEANDRA BRANDSON</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">I am an interdisciplinary artist working and living in Treaty 1 Territory, 
+            Winnipeg, Manitoba. I began working with ceramics in 2018. My works are 
+            heavily inspired by queer identity and lived experience at the intersection 
+            of queer marginalized communities. Living in Manitoba has allowed me 
+            to move freely between both urban and rural communal experiences. I 
+            am the by-product of cultural mixing and drift, and I celebrate that with 
+            every fibre of my being as I bring about new dialogues in my works. </p>
+        </div>
+        <a href = "leandra.html" onclick = "playAudioLinkClick();" style = "background-color:#ff5233; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #e5a394; text-align: left; text-decoration: underline; width: 20%; left: 40%; position: relative;">Continue to Leandra's Page</a>
+        </div>
+        <img src="../img/studentImages/brandson/leandrab_1.jpg" alt="" class = "overlay-picture-right" style = "left: 78%;">
+    </div>
+
+    <div id="navTayler" class="sidenav" style = "background-color: #a69cb5;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavTayler(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio-left" style = "color:#009973; font-family: nazare, sans-serif; width: 40vw;"><h2 class = "studentBioHeading" style = "color:#009973; font-size: 4vw;">TAYLER BUSS</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;"> Tayler Buss is a lens based artist currently 
+            working on Treaty 1 Territory in Winnipeg, 
+            Manitoba. Through photography, video, and 
+            sculpture, her practice explores themes 
+            of digital and physical materiality. She has 
+            shown locally in galleries such as PLATFORM 
+            Centre for Photographic and Digital Arts, 
+            aceart, and The Edge Gallery, and was a 
+            muralist for the WalltoWall Mural Festival in 
+            July 2020. Her first solo show, Red, was held 
+            at Flux Gallery in May 2019.</p>
+        </div>
+        <a href = "tayler.html" onclick = "playAudioLinkClick();" style = "background-color:#009973; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #a69cb5; text-align: left; text-decoration: underline; width: 18%; left: 32%; position: relative;">Continue to Tayler's Page</a>
+        </div>
+        <img src="../img/studentImages/Buss/taylerb-1.jpg" alt="" class = "overlay-picture-right" style = "width: 40vw;">
+    </div>
+
+    <div id="navDeanna" class="sidenav" style = "background-color: #f5e3c7;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavDeanna(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio-left" style = "color:#a69cb5; font-family: tenez, sans-serif; width: 50vw;"><h2 class = "studentBioHeading" style = "color:#a69cb5; font-size: 4vw;">DEANNA DAVIS</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">After a 20-year absence I returned fall of 2019 to complete my BFA. I began 
+            this series of oil paintings in my 3rd year and continued working on them 
+            throughout the next 2 decades. During that time, I was the village bicycle of 
+            kitchens, worked in many, many restaurants. My influences are Warhol, Damien 
+            Hirst, and whatever catches my eye on social media. I was intrigued by Warhol’s 
+            attempt to complete 1000 works in a single day, after he heard that Da Vinci 
+            accomplished 1000 works in his lifetime. As of February, I graduated with my 
+            BFA. Better late than never. <br><br>I don’t have much of my work up on my social media, but if you want to see 
+            pictures of the dogs in my life, Deannaizcool on the Instagram, if you want to 
+            wish me a happy birthday you can do so on the facebook. 
+            When my series is finally done, it will be printed as a book. </p>
+        </div>
+        <a href = "deanna.html" onclick = "playAudioLinkClick();" style = "background-color:#a69cb5; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #f5e3c7; text-align: left; text-decoration: underline; width: 19%; left: 41%; position: relative;">Continue to Deanna's Page</a>
+        </div>
+        <img src="../img/studentImages/Davis/Annie.jpg" alt="" class = "overlay-picture-right">
+    </div>
+    
+    <div id="navTamiko" class="sidenav" style = "background-color: #ff5233;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavTamiko(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color:#f5e3c7; font-family: KoHo, sans-serif"><h2 class = "studentBioHeading" style = "color:#f5e3c7; font-size: 3.5vw;">TAMIKO KAVANAUGH</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Tamiko Chase Kavanagh is a designer and artist from Winnipeg, Manitoba - Treaty 1 Territory. They excitedly bold design and even bolder narratives.<br><br>
+          They design digitally and physically - they also 
+          work with installation and illustration. Playful 
+          investigation and a considerate approach to 
+          research are key components to their practice. 
+          As a queer, mixed-race Japanese-Canadian artist, 
+          the intersections of race, culture, and gender 
+          also play a crucial role in Tamiko’s work. When 
+          designing, they like to work closely with clients 
+          to create exciting and uncompromising visual 
+          identities and product<br><br></p>
+        </div>
+        <a href = "tamiko.html" onclick = "playAudioLinkClick();" style = "background-color:#f5e3c7; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #ff5233; text-align: left; text-decoration: underline; width: 19%; left: 70%; position: relative;" onclick = "playAudioLinkClick();">Continue to Tamiko's Page</a>
+        </div>
+        <img src="../img/studentImages/Kavanagh/tamikok-5.png" alt="" class = "overlay-picture" style = "width: 40vw;">
+    </div>
+
+    <div id="navEdtie" class="sidenav" style = "background-color: #e5a394;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavEdtie(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color:#ff5233; font-family: armada, sans-serif"><h2 class = "studentBioHeading" style = "color:#ff5233; font-size: 3.7vw;">EDTIE DOLL</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Edtie Doll is an illustrator, a painter, an animator, 
+            and a filmmaker. He primarily focuses on 
+            storytelling across vast mediums. His artistic 
+            style ranges from caricature illustrations to 
+            graphic novel imagery. </p>
+        </div>
+        <a href = "edtie.html" onclick = "playAudioLinkClick();" style = "background-color:#ff5233; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #e5a394; text-align: left; text-decoration: underline; width: 18%; left: 70%; position: relative;">Continue to Edtie's Page</a>
+        </div>
+        <img src="../img/studentImages/Doll/edtied-1.jpg" alt="" class = "overlay-picture" style = "width: 40vw;">
+    </div>
+
+    <div id="navRen" class="sidenav" style = "background-color: #e5a394;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavRen(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #ff5233; font-family: nazare, sans-serif; width: 50vw; left: 40%;"><h2 class = "studentBioHeading" style = "color: #ff5233; font-size: 3.5vw;">REN LAM</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Ren Lam is a Chinese-Canadian graphic designer+illustrator who is 
+            living and working and learning on Treaty-1 Territory, Canada.<br><br>
+            Despite being frustrated with language’s shortcomings, they never 
+            shut up. It’s called perseverance! Their work explores+experiments 
+            with materiality, language, and form. They want to try everything, 
+            and approach every project with a sincere, playful, all-or-nothing 
+            attitude. Intense and experimental and thoughtful design is the goal.<br><br>
+            Overall, they hope to take in and produce diverse perspectives 
+            through design.<br><br>
+            They are trying their best to have as much fun as they can.</p>
+        </div>
+        <a href = "ren.html" onclick = "playAudioLinkClick();" style = "background-color: #ff5233; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #e5a394; text-align: left; text-decoration: underline; width: 17%; left: 73%; position: relative;">Continue to Ren's Page</a>
+        </div>
+        <img src="../img/studentImages/Lam/ren_lam-web4.png" alt="" class = "overlay-picture" style = "width: 27vw;">
+    </div>
+
+    <div id="navWendy" class="sidenav" style = "background-color: #ff5233;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavWendy(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #f5e3c7; font-family: KoHo, sans-serif"><h2 class = "studentBioHeading" style = "color:#f5e3c7; font-size: 3.5vw;">WENDY LLOYD</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Wendy C. Lloyd is an emerging multi-disciplinary artist, who 
+            combines digital technologies such as laser design with 
+            traditional techniques to make each of her creations special 
+            and unique.<br><br>
+            Regardless of medium, there is often an element of narrative 
+            found in her work. She uses humor to turn stories from 
+            personally lived experiences and observations into relatable 
+            and memorable art.<br><br>
+            Her studio, The Make Bank is located in an actual bank in 
+            Weldon, Sk. Her canine Bank Manager Peaches makes sure she 
+            takes lots of walks to meet the town and inspire her work.</p>
+        </div>
+        <a href = "wendy.html" onclick = "playAudioLinkClick();" style = "background-color: #f5e3c7; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #ff5233; text-align: left; text-decoration: underline; width: 19%; left: 70%; position: relative;">Continue to Wendy's Page</a>
+        </div>
+        <img src="../img/studentImages/Lloyd/WendyL-1.jpg" alt="" class = "overlay-picture" style = "width: 37vw;">
+    </div>
+
+    <div id="navChase" class="sidenav" style = "background-color: #f5e3c7;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavChase(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #a69cb5; font-family: armada, sans-serif; width: 45vw; left: 45%;"><h2 class = "studentBioHeading" style = "color:#a69cb5; font-size: 3.5vw;">CHASE MARTIN</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Based in Winnipeg, Manitoba, Chase Martin is a 
+            multidisciplinary emerging visual artist who graduated 
+            from the University of Manitoba with an Honours 
+            BFA in 2021. His practice focuses on painting, working 
+            in a Post Analogue style that synthesizes digital and 
+            material visual languages.<br><br>
+            Chase has exhibited in group shows at la Maison des 
+            artistes and Ace Art Inc. In 2019, he exhibited a series 
+            of large scale pencil crayon drawings for his first solo 
+            show, <i>Off my Fridge</i>, at Allegria Galleria. In 2020, 
+            he participated in <i>Wall to Wall: Mural and Cultural 
+            Festival</i>, producing a mural for Wannabe’s Diner in 
+            Winnipeg. In 2021, Chase will exhibit a new series of 
+            paintings during an upcoming solo show at la Maison 
+            des Artistes.</p>
+        </div>
+        <a href = "chase.html" onclick = "playAudioLinkClick();" style = "background-color: #a69cb5; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #f5e3c7; text-align: left; text-decoration: underline; width: 18%; left: 72%; position: relative;">Continue to Chase's Page</a>
+        </div>
+        <img src="../img/studentImages/Martin/chasem-1.jpg" alt="" class = "overlay-picture" style = "width: 28vw;">
+    </div>
+
+    <div id="navKarrie" class="sidenav" style = "background-color: #e5a394;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavKarrie(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #ff5233; font-family: hobo-std, sans-serif"><h2 class = "studentBioHeading" style = "color:#ff5233;font-size: 3.5vw;">KARRIE McEWAN</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Karrie McEwan is a Two-Spirit Anishinaabe 
+            graphic artist based in Treaty 1 territory, 
+            Winnipeg Manitoba.<br><br>
+            I am passionate about illustration and 
+            design and how I can combine the two. 
+            Creating characters and stories for them 
+            is always a goal of mine. One of the biggest 
+            challenges is how I can incorporate my own 
+            heritage through graphic illustration while 
+            maintaining those strong activist ideas 
+            through the characters and ideas I make.</p>
+        </div>
+        <a href = "karrie.html" onclick = "playAudioLinkClick();" style = "background-color: #ff5233; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #e5a394; text-align: left; text-decoration: underline; width: 18%; left: 70%; position: relative;">Continue to Karrie's Page</a>
+        </div>
+        <img src="../img/studentImages/McEwan/KarrieM_1.jpg" alt="" class = "overlay-picture" style = "width: 28vw;">
+    </div>
+
+    <div id="navAra" class="sidenav" style = "background-color: #009973;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavAra(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #e5a394; font-family: nazare, sans-serif"><h2 class = "studentBioHeading" style = "color:#e5a394;font-size: 3.5vw;">ARA PENNER</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">I am an emerging female queer artist situated in 
+            Winnipeg, Manitoba. Recently graduated from BFA, 
+            honors program offered through The University of 
+            Manitoba. painting and printmaking are my chosen 
+            medias I use to express my struggle with mental health 
+            issues as well as the relationship of the physicality of 
+            the human form.</p>
+        </div>
+        <a href = "ara.html" onclick = "playAudioLinkClick();" style = "background-color: #e5a394; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #009973; text-align: left; text-decoration: underline; width: 16%; left: 73%; position: relative;">Continue to Ara's Page</a>
+        </div>
+        <img src="../img/studentImages/Penner/Double Reflection Detailed.jpg" alt="" class = "overlay-picture">
+    </div>
+
+    <div id="navHanna" class="sidenav" style = "background-color: #a69cb5;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavHanna(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #009973; font-family: ohno-blazeface, sans-serif"><h2 class = "studentBioHeading" style = "color:#009973;font-size: 3.5vw;letter-spacing: 3px;">HANNA REIMER</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Hanna Reimer is a Winnipeg/Treaty 1-based multidisciplinary 
+            artist currently working towards a BFA (HON.) at the 
+            School of Art, University of Manitoba. For the better part 
+            of four years, fabric, especially striped fabric, has heavily 
+            influenced her work. She has been recognized by her peers 
+            and community, commissioned for private as well as public 
+            artwork including murals around her hometown, and 
+            currently works as a Workshop Facilitator and Art Squad 
+            Programmer at Art city, an artist-run community arts centre 
+            that provides free art workshops to children and residents 
+            of the underserved West-Broadway area.</p>
+        </div>
+        <a href = "hanna.html" onclick = "playAudioLinkClick();" style = "background-color: #009973; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #a69cb5; text-align: left; text-decoration: underline; width: 18%; left: 70%; position: relative;">Continue to Hanna's Page</a>
+        </div>
+        <img src="../img/studentImages/Reimer/hannar-1.jpg" alt="" class = "overlay-picture" style = "width: 40vw;">
+    </div>
+
+    <div id="navHalley" class="sidenav" style = "background-color: #f5e3c7;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavHalley(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #a69cb5; font-family: tenez, sans-serif"><h2 class = "studentBioHeading" style = "color: #a69cb5;font-size: 3.5vw;">HALLEY RITTER</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Halley Ritter is a contemporary painter, printmaker, 
+            installation artist, and curator living and working on 
+            Treaty 1 Territory. <br><br>
+            She’s fixated, in her life and work, on the subjects 
+            of memory and collective identity in the context of 
+            contemporary Jewish culture. Halley is, and likely 
+            always will be, continuously working toward creating 
+            a specifically Jewish visual language to reflect the 
+            nuanced cultural experience and all of its complexities. </p>
+        </div>
+        <a href = "halley.html" onclick = "playAudioLinkClick();" style = "background-color: #a69cb5; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #f5e3c7; text-align: left; text-decoration: underline; width: 19%; left: 70%; position: relative;">Continue to Halley's Page</a>
+        </div>
+        <img src="../img/studentImages/Ritter/halleyr-1.png" alt="" class = "overlay-picture" style = "width: 28vw;">
+    </div>
+
+    <div id="navEmily" class="sidenav" style = "background-color: #009973;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavEmily(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #e5a394; font-family: armada, sans-serif"><h2 class = "studentBioHeading" style = "color: #e5a394;font-size: 3.5vw;">EMILY ROFFEY</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Autistic and Queer, Emily developed keen interest 
+            in her changing technological environment and 
+            the media it brought with its evolution. The 
+            iconography of old pixel graphics, cellphone 
+            charms, sailor moon, and many other nostalgic 
+            cultural call-backs are keystones to her current 
+            hyper aesthetic practice. Now she leans into the 
+            aesthetics of the internet, both past and present, 
+            and has refined her practice while completing 
+            her undergrad at the University of Manitoba. 
+            Nominated for several academic awards, the future 
+            of her practice looks bright and full of technicolour.</p>
+        </div>
+        <a href = "emily.html" onclick = "playAudioLinkClick();" style = "background-color: #e5a394; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #009973; text-align: left; text-decoration: underline; width: 19%; left: 70%; position: relative;">Continue to Emily's Page</a>
+        </div>
+        <img src="../img/studentImages/Roffey/emilyr-1.png" alt="" class = "overlay-picture" style = "width: 40vw;">
+    </div>
+
+    <div id="navBenny" class="sidenav" style = "background-color: #a69cb5;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavBenny(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #009973; font-family: ohno-blazeface, sans-serif"><h2 class = "studentBioHeading" style = "color:#009973;font-size: 4vw;">BENNY SUN</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Sun (Benny) Banghao, Chinese graphic designer 
+            who is living and working and learning on Southern 
+            China and Treaty-1 Territory, Canada.<br><br>
+            Being passionate about the graphic industry, 
+            creating graphic designs, visual arts, and also work 
+            with website design. Thinking critically is the goal 
+            for me while presenting a subject matter, which I 
+            wish my works may provoke ideas and influence 
+            actions on both an individual and public scale.</p>
+        </div>
+        <a href = "benny.html" onclick = "playAudioLinkClick();" style = "background-color: #009973; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #a69cb5; text-align: left; text-decoration: underline; width: 18%; left: 72%; position: relative;">Continue to Benny's Page</a>
+        </div>
+        <img src="../img/studentImages/Sun/bennys-1.jpg" alt="" class = "overlay-picture" style = "width: 43vw;">
+    </div>
+
+    <div id="navSarah" class="sidenav" style = "background-color: #ff5233">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavSarah(); playAudioLinkClose();">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio-left" style = "color: #f5e3c7; font-family: KoHo, sans-serif; width: 40vw;"><h2 class = "studentBioHeading" style = "color:#f5e3c7;font-size: 3.5vw;">SARAH THOMPSON</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Sarah Thompson is a chronically ill and disabled 
+            multidisciplinary artist working with the theme 
+            of identity and disability within her works. All 
+            her works are inspired from her experience as 
+            a person with Ehlers Danlos syndrome, using 
+            her work as an act of visibility for the invisible 
+            disorder.</p>
+        </div>
+        <a href = "sarah.html" onclick = "playAudioLinkClick();" style = "background-color:#f5e3c7; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #ff5233; text-align: left; text-decoration: underline; width: 18%; left: 30%; position: relative;">Continue to Sarah's Page</a>
+        </div>
+        <img src="../img/studentImages/Thompson/saraht_7.png" alt="" class = "overlay-picture-right" style = "width: 35vw;">
+    </div>
+  
+    <div id="navErnest" class="sidenav" style = "background-color: #009973;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavErnest()">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #e5a394; font-family: hobo-std, sans-serif"><h2 class = "studentBioHeading" style = "color: #e5a394; font-size: 3.5vw;">ERNEST ZARZUELA</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Ernest Zarzuela (he/him) is a Filipino-Canadian 
+            designer based ivn Treaty-1 territory, Canada.
+            Through esoteric and rhizomatic process and 
+            contemplation with a key interest in image-making, identity and language, his work often 
+            involves experimentation and intersection across 
+            different mediums, both digital and analog, such as 
+            illustration, typography, motion graphics, collage-making and screen printing to then applied in his 
+            approach to design. Sincerity and delicateness are 
+            very important to his methodology.</p>
+        </div>
+        <a href = "ernest.html" onclick = "playAudioLinkClick();" style = "background-color: #e5a394; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #009973; text-align: left; text-decoration: underline; width: 19%; left: 70%; position: relative;">Continue to Ernest's Page</a>
+        </div>
+        <img src="../img/studentImages/zarzuela/ernestz-4.jpg" alt="" class = "overlay-picture" style = "width: 40vw;">
+    </div>
+    
+    <div id="navRachel" class="sidenav" style = "background-color: #f5e3c7;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavRachel()">&times;</a>
+      <div class="overlay-content">
+        <div class = "overlay-studentBio" style = "color: #a69cb5; font-family: tenez, sans-serif"><h2 class = "studentBioHeading" style = "color: #a69cb5; font-size: 3.5vw;">RACHEL WAGNER</h2>
+          <br><p style = "font-size: 1.5vw; font-family: p22-underground, sans-serif;">Rachel Wagner is a graphic designer and 
+            artist from Winnipeg, Manitoba who holds 
+            a Bachelors of Fine Arts (Honours) from the 
+            University of Manitoba. In her pursuit of 
+            design, she prioritizes function and aesthetic 
+            through a series of bold, yet systematic visual 
+            elements. All of her work strives to bring forth 
+            an innovative mindset that retains versatility 
+            in order to be applicable across the realms of 
+            print and digital media.</p>
+        </div>
+        <a href = "rachel.html" onclick = "playAudioLinkClick();" style = "background-color: #a69cb5; font-size: 1.5vw; font-family: p22-underground, sans-serif; color: #f5e3c7; text-align: left; text-decoration: underline; width: 19%; left: 70%; position: relative;">Continue to Rachel's Page</a>
+        </div>
+        <img src="../img/studentImages/Wagner/rachelw-1.jpg" alt="" class = "overlay-picture" style = "width:43vw;">
+    </div>
+
+    <div class = "imagePositions">
+      <a href="#lorinAuger" class = "lorinAuger" onclick = "openNavLorin(); playAudio1();"><div class = "innerImages" id = "btn1">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#ff5233" points="0,268.5 0,247.1889 0,213.1856 0,169.2466 0,131.1995 0,51.3105 0,0 72.9664,0 187.8,0 187.8,268.5 35.7409,268.5">
+            <animate id="animation-to-shape1" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="2,266.3475 9.6149,248.7475 34.3066,212.6 61.0066,179.2 64.9066,155.8 19.8066,61.3 2.6066,24.7 64.8066,17 2187.8,0 187.8,268.5 37.4509,267.3475"/>
+            <animate id="animation-to-normal1" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,247.1889 0,213.1856 0,169.2466 0,131.1995 0,51.3105 0,0 72.9664,0 187.8,0 187.8,268.5 35.7409,268.5"/>
+          </polygon>
+        </svg>
+        <div class = "textBlazeface">LORIN AUGER</div>
+      </div></a><img src="../img/landingPageImages/auger-brandson-buss/lorina-5.jpg" class = "imagesLP"><a href="#leandraBrandson" class = "leandraBrandson" onclick = "openNavLeandra(); playAudio2();"><div class = "innerImages" id = "btn2">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#e5a394" points="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5">
+            <animate id="animation-to-shape2" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="51,265.4999 2.3,219.7 2.2,201.4 1.8,153.2 1.2,28.9 1,1.2 12.5826,1.6038 15.7,2.2 68.2,16.4 136.9,35.2 187.8,268.5 153.8963,266.7947"/>
+            <animate id="animation-to-normal2" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5"/>
+          </polygon>
+        </svg>
+        <div class = "textHobo">LEANDRA BRANDSON</div>
+      </div></a><a href="#taylerBuss" class = "taylerBuss" onclick = "openNavTayler(); playAudio3();"><div class = "innerImages" id = "btn3">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#a69cb5" points="0,268.5 0,211.0294 0,194.7664 0,170.3652 0,100.1363 0,0 62.5151,0 95.3278,0 187.8,0 187.8,42.3948 187.8,268.5">
+            <animate id="animation-to-shape3" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="37.8849,217.972 22.5193,199.6721 21,186.3538 0.7851,71.9795 5.0309,58.8647 90.6534,1.4233 96.2133,0 98.2351,0.4067 187.8,42.3948 187.8,368.5 65.9876,227.2236"/>
+            <animate id="animation-to-normal3" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,211.0294 0,194.7664 0,170.3652 0,100.1363 0,0 62.5151,0 95.3278,0 187.8,0 187.8,42.3948 187.8,268.5"/>
+          </polygon>
+        </svg>
+        <div class = "textNazare">TAYLER BUSS</div>
+      </div></a><a href="#deannaDavis" class = "deannaDavis" onclick = "openNavDeanna(); playAudio4();"><div class = "innerImages" id = "btn4">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#f5e3c7" points="0,268.5 0,220.2 0,0 54.338,0 187.8,0 187.8,268.5 171.3,268.3">
+            <animate id="animation-to-shape4" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="7.4,229.3 0,220.2 31.9,33.5 42.2,26.2 187.8,0 187.8,268.5 171.3,268.3"/>
+            <animate id="animation-to-normal4" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,220.2 0,0 54.338,0 187.8,0 187.8,268.5 171.3,268.3"/>
+          </polygon>
+        </svg><div class = "textTenez">DEANNA DAVIS</div>
+      </div></a><img src = "../img/landingPageImages/davis-doll-kavanagh/tamikok-2.jpg" class = "imagesLP"><a href="#edtieDoll" class = "edtieDoll" onclick = "openNavEdtie(); playAudio5();"><div class = "innerImages" id = "btn5">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#e5a394" points="0,268.5 0,165.5176 0,69.0013 0,0 187.8,0 187.8,148.7157 187.8,223.9324 187.8,268.5">
+            <animate id="animation-to-shape5" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="73.4,261.9 10.3,169.2 0.2,69 0,0 187.8,0 178.3,168 130.5,254.3 114,265.3"/>
+            <animate id="animation-to-normal5" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,165.5176 0,69.0013 0,0 187.8,0 187.8,148.7157 187.8,223.9324 187.8,268.5"/>
+          </polygon>
+        </svg><div class = "textNazare">EDTIE DOLL</div>
+      </div></a><a href="#tamikoKavanagh" class = "tamikoKavanagh" onclick = "openNavTamiko(); playAudio6();"><div class = "innerImages" id = "btn6">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#ff5233" points="0,268.5 0,97.5699 0,0 88.309,0 187.8,0 187.8,93.6368 187.8,123.6688 187.8,268.5">
+            <animate id="animation-to-shape6" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 2,97.348 12.2921,59.348 88.6921,6.148 139.3921,26.148 181.4921,93.648 186.2921,118.648 187.8,268.5"/>
+            <animate id="animation-to-normal6" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,97.5699 0,0 88.309,0 187.8,0 187.8,93.6368 187.8,123.6688 187.8,268.5"/>
+          </polygon>
+        </svg><div class = "textKoho">TAMIKO KAVANAGH</div>
+      </div></a><img src = "../img/landingPageImages/lam-lloyd-martin/chasem-4.jpg" class = "imagesLP"><a href="#renLam" class = "renLam" onclick = "openNavRen(); playAudio7();"><div class = "innerImages" id = "btn7">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#e5a394" points="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5">
+            <animate id="animation-to-shape7" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="51,265.4999 2.3,219.7 2.2,201.4 1.8,153.2 1.2,28.9 1,1.2 12.5826,1.6038 15.7,2.2 68.2,16.4 136.9,35.2 187.8,268.5 153.8963,266.7947"/>
+            <animate id="animation-to-normal7" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5"/>
+          </polygon>
+        </svg><div class = "textNazare">REN LAM</div>
+      </div></a><a href="#wendyLloyd" class = "wendyLloyd" onclick = "openNavWendy(); playAudio8();"><div class = "innerImages" id = "btn8">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#ff5233" points="0,268.5 0,247.1889 0,213.1856 0,169.2466 0,131.1995 0,51.3105 0,0 72.9664,0 187.8,0 187.8,268.5 35.7409,268.5">
+            <animate id="animation-to-shape8" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="2,266.3475 9.6149,248.7475 34.3066,212.6 61.0066,179.2 64.9066,155.8 19.8066,61.3 2.6066,24.7 64.8066,17 2187.8,0 187.8,268.5 37.4509,267.3475"/>
+            <animate id="animation-to-normal8" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,247.1889 0,213.1856 0,169.2466 0,131.1995 0,51.3105 0,0 72.9664,0 187.8,0 187.8,268.5 35.7409,268.5"/>
+          </polygon>
+        </svg><div class = "textKoho">WENDY LLOYD</div>
+      </div></a><a href="#chaseMartin" class = "chaseMartin" onclick = "openNavChase(); playAudio9();"><div class = "innerImages" id = "btn9">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#f5e3c7" points="0,268.5 0,97.5699 0,0 88.309,0 187.8,0 187.8,93.6368 187.8,123.6688 187.8,268.5">
+            <animate id="animation-to-shape9" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 2,97.348 12.2921,59.348 88.6921,6.148 139.3921,26.148 181.4921,93.648 186.2921,118.648 187.8,268.5"/>
+            <animate id="animation-to-normal9" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,97.5699 0,0 88.309,0 187.8,0 187.8,93.6368 187.8,123.6688 187.8,268.5"/>
+          </polygon>
+        </svg><div class = "textArmada">CHASE MARTIN</div>
+      </div></a><img src = "../img/landingPageImages/mcewan-penner-reimer/hannar-3.jpg" class = "imagesLP"/
+      ><a href="#karrieMcEwan" class = "karrieMcewan" onclick = "openNavKarrie(); playAudio10();"><div class = "innerImages" id = "btn10">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#e5a394" points="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5">
+            <animate id="animation-to-shape10" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="51,265.4999 2.3,219.7 2.2,201.4 1.8,153.2 1.2,28.9 1,1.2 12.5826,1.6038 15.7,2.2 68.2,16.4 136.9,35.2 187.8,268.5 153.8963,266.7947"/>
+            <animate id="animation-to-normal10" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5"/>
+          </polygon>
+        </svg><div class = "textHobo">KARRIE McEWAN</div>
+      </div></a><a href="#araPenner" class = "araPenner" onclick = "openNavAra(); playAudio11();"><div class = "innerImages" id = "btn11">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#009973" points="0,268.5 0,220.2 0,0 54.338,0 187.8,0 187.8,268.5 171.3,268.3">
+            <animate id="animation-to-shape11" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="7.4,229.3 0,220.2 31.9,33.5 42.2,26.2 187.8,0 187.8,268.5 171.3,268.3"/>
+            <animate id="animation-to-normal11" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,220.2 0,0 54.338,0 187.8,0 187.8,268.5 171.3,268.3"/>
+          </polygon>
+        </svg><div class = "textNazare">ARA PENNER</div>
+      </div></a><a href="#hannaReimer" class = "hannaReimer" onclick = "openNavHanna(); playAudio12();"><div class = "innerImages" id = "btn12">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#a69cb5" points="0,268.5 0,211.0294 0,194.7664 0,170.3652 0,100.1363 0,0 62.5151,0 95.3278,0 187.8,0 187.8,42.3948 187.8,268.5">
+            <animate id="animation-to-shape12" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="37.8849,217.972 22.5193,199.6721 21,186.3538 0.7851,71.9795 5.0309,58.8647 90.6534,1.4233 96.2133,0 98.2351,0.4067 187.8,42.3948 187.8,368.5 65.9876,227.2236"/>
+            <animate id="animation-to-normal12" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,211.0294 0,194.7664 0,170.3652 0,100.1363 0,0 62.5151,0 95.3278,0 187.8,0 187.8,42.3948 187.8,268.5"/>
+          </polygon>
+        </svg><div class = "textBlazeface">HANNA REIMER</div>
+      </div></a><a href="#halleyRitter" class = "halleyRitter" onclick = "openNavHalley(); playAudio1();"><div class = "innerImages" id = "btn13">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#f5e3c7" points="0,268.5 0,247.1889 0,213.1856 0,169.2466 0,131.1995 0,51.3105 0,0 72.9664,0 187.8,0 187.8,268.5 35.7409,268.5">
+            <animate id="animation-to-shape13" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="2,266.3475 9.6149,248.7475 34.3066,212.6 61.0066,179.2 64.9066,155.8 19.8066,61.3 2.6066,24.7 64.8066,17 2187.8,0 187.8,268.5 37.4509,267.3475"/>
+            <animate id="animation-to-normal13" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,247.1889 0,213.1856 0,169.2466 0,131.1995 0,51.3105 0,0 72.9664,0 187.8,0 187.8,268.5 35.7409,268.5"/>
+          </polygon>
+        </svg><div class = "textTenez">HALLEY RITTER</div>
+      </div></a><a href="#emilyRoffey" class = "emilyRoffey" onclick = "openNavEmily(); playAudio2();"><div class = "innerImages" id = "btn14">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#009973" points="0,268.5 0,220.2 0,0 54.338,0 187.8,0 187.8,268.5 171.3,268.3">
+            <animate id="animation-to-shape14" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="7.4,229.3 0,220.2 31.9,33.5 42.2,26.2 187.8,0 187.8,268.5 171.3,268.3"/>
+            <animate id="animation-to-normal14" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,220.2 0,0 54.338,0 187.8,0 187.8,268.5 171.3,268.3"/>
+          </polygon>
+        </svg><div class = "textArmada">EMILY ROFFEY</div>
+      </div></a><img src = "../img/landingPageImages/ritter-roffey-sun/bennys-4.jpg" class = "imagesLP"/
+      ><a href="#bennySun" class = "bennySun" onclick = "openNavBenny(); playAudio3();"><div class = "innerImages" id = "btn15">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#a69cb5" points="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5">
+            <animate id="animation-to-shape15" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="51,265.4999 2.3,219.7 2.2,201.4 1.8,153.2 1.2,28.9 1,1.2 12.5826,1.6038 15.7,2.2 68.2,16.4 136.9,35.2 187.8,268.5 153.8963,266.7947"/>
+            <animate id="animation-to-normal15" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,218.7425 0,200.4087 0,152.0804 0,27.0937 0,0 13.0716,0 18.4752,0 79.9937,0 187.8,0 187.8,268.5 153.8137,268.5"/>
+          </polygon>
+        </svg><div class = "textBlazeface">BENNY SUN</div>
+      </div></a><a href="#sarahThompson" class = "sarahThompson" onclick = "openNavSarah(); playAudio4();"><div class = "innerImages" id = "btn16">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#ff5233" points="0,268.5 0,165.5176 0,69.0013 0,0 187.8,0 187.8,148.7157 187.8,223.9324 187.8,268.5">
+            <animate id="animation-to-shape16" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="73.4,261.9 10.3,169.2 0.2,69 0,0 187.8,0 178.3,168 130.5,254.3 114,265.3"/>
+            <animate id="animation-to-normal16" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,165.5176 0,69.0013 0,0 187.8,0 187.8,148.7157 187.8,223.9324 187.8,268.5"/>
+          </polygon>
+        </svg><div class = "textKoho">SARAH THOMPSON</div>
+      </div></a><a href="#rachelWagner" class = "rachelWagner" onclick = "openNavRachel(); playAudio5();"><div class = "innerImages" id = "btn17">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#f5e3c7" points="0,268.5 0,211.0294 0,194.7664 0,170.3652 0,100.1363 0,0 62.5151,0 95.3278,0 187.8,0 187.8,42.3948 187.8,268.5">
+            <animate id="animation-to-shape17" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="37.8849,217.972 22.5193,199.6721 21,186.3538 0.7851,71.9795 5.0309,58.8647 90.6534,1.4233 96.2133,0 98.2351,0.4067 187.8,42.3948 187.8,368.5 65.9876,227.2236"/>
+            <animate id="animation-to-normal17" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,211.0294 0,194.7664 0,170.3652 0,100.1363 0,0 62.5151,0 95.3278,0 187.8,0 187.8,42.3948 187.8,268.5"/>
+          </polygon>
+        </svg><div class = "textTenez">RACHEL WAGNER</div>
+      </div></a><img src = "../img/landingPageImageS/thompson-wagner-zarzuela/ernestz-7.jpg" class = "imagesLP"/
+      ><a href="#ernestZarzuela" class = "ernestZarzuela" onclick = "openNavErnest(); playAudio6();"><div class = "innerImages" id = "btn18">
+        <svg viewBox="0 0 186 266">
+          <polygon fill="#009967" points="0,268.5 0,97.5699 0,0 88.309,0 187.8,0 187.8,93.6368 187.8,123.6688 187.8,268.5">
+            <animate id="animation-to-shape18" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 2,97.348 12.2921,59.348 88.6921,6.148 139.3921,26.148 181.4921,93.648 186.2921,118.648 187.8,268.5"/>
+            <animate id="animation-to-normal18" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="0,268.5 0,97.5699 0,0 88.309,0 187.8,0 187.8,93.6368 187.8,123.6688 187.8,268.5"/>
+          </polygon>
+        </svg><div class = "textHobo">ERNEST ZARZUELA</div>
+      </div></a>
+    </div>
+    
+    <audio id="studentAudio1">
+      <source src="../audio/student 1 kordz space.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio2">
+      <source src="../audio/student 2 kordz dry.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio3">
+      <source src="../audio/student 3 kordz chime.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio4">
+      <source src="../audio/student 4 kordz blades.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio5">
+      <source src="../audio/student 5 kordz bowd vibes.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio6">
+      <source src="../audio/student 6 kordz hollow.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio7">
+      <source src="../audio/student 1 kordz space 2.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio8">
+      <source src="../audio/student 2 kordz dry 2.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio9">
+      <source src="../audio/student 3 kordz chime 2.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio10">
+      <source src="../audio/student 4 kordz blades 2.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio11">
+      <source src="../audio/student 5 kordz bowd vibes 2.WAV" type="audio/wav">
+    </audio>
+    <audio id="studentAudio12">
+      <source src="../audio/student 6 kordz hollow 2.WAV" type="audio/wav">
+    </audio>
+    
+    <audio id="circle">
+      <source src="../audio/Purple 1.WAV" type="audio/wav">
+    </audio>
+    <audio id="greenShape">
+      <source src="../audio/Green 1.WAV" type="audio/wav">
+    </audio>
+
+    <audio id="linkClick">
+      <source src="../audio/LINK CLICK.WAV" type="audio/wav">
+    </audio>
+    <audio id="linkClose">
+      <source src="../audio/LINK CLOSE.WAV" type="audio/wav">
+    </audio>
+
+    <script>
+      function openNavCircle() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+  
+      function closeNavCircle() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+  
+      function openNavStudents() {
+        document.getElementById("myNav2").style.height = "100%";
+      }
+  
+      function closeNavStudents() {
+        document.getElementById("myNav2").style.height = "0%";
+      }
+  
+      function openNavTamiko(){
+        document.getElementById("navTamiko").style.width = "100%";
+      }
+  
+      function closeNavTamiko(){
+        document.getElementById("navTamiko").style.width = "0%";
+      }
+  
+      function openNavEdtie(){
+        document.getElementById("navEdtie").style.width = "100%";
+      }
+  
+      function closeNavEdtie(){
+        document.getElementById("navEdtie").style.width = "0%";
+      }
+  
+      function openNavDeanna(){
+        document.getElementById("navDeanna").style.width = "100%";
+      }
+  
+      function closeNavDeanna(){
+        document.getElementById("navDeanna").style.width = "0%";
+      }
+  
+      function openNavTayler(){
+        document.getElementById("navTayler").style.width = "100%";
+      }
+  
+      function closeNavTayler(){
+        document.getElementById("navTayler").style.width = "0%";
+      }
+  
+      function openNavLeandra(){
+        document.getElementById("navLeandra").style.width = "100%";
+      }
+  
+      function closeNavLeandra(){
+        document.getElementById("navLeandra").style.width = "0%";
+      }
+  
+      function openNavLorin(){
+        document.getElementById("navLorin").style.width = "100%";
+      }
+  
+      function closeNavLorin(){
+        document.getElementById("navLorin").style.width = "0%";
+      }
+  
+      function openNavHanna(){
+        document.getElementById("navHanna").style.width = "100%";
+      }
+  
+      function closeNavHanna(){
+        document.getElementById("navHanna").style.width = "0%";
+      }
+  
+      function openNavAra(){
+        document.getElementById("navAra").style.width = "100%";
+      }
+  
+      function closeNavAra(){
+        document.getElementById("navAra").style.width = "0%";
+      }
+  
+      function openNavKarrie(){
+        document.getElementById("navKarrie").style.width = "100%";
+      }
+  
+      function closeNavKarrie(){
+        document.getElementById("navKarrie").style.width = "0%";
+      }
+  
+      function openNavChase(){
+        document.getElementById("navChase").style.width = "100%";
+      }
+  
+      function closeNavChase(){
+        document.getElementById("navChase").style.width = "0%";
+      }
+  
+      function openNavWendy(){
+        document.getElementById("navWendy").style.width = "100%";
+      }
+  
+      function closeNavWendy(){
+        document.getElementById("navWendy").style.width = "0%";
+      }
+  
+      function openNavRen(){
+        document.getElementById("navRen").style.width = "100%";
+      }
+  
+      function closeNavRen(){
+        document.getElementById("navRen").style.width = "0%";
+      }
+  
+      function openNavErnest(){
+        document.getElementById("navErnest").style.width = "100%";
+      }
+  
+      function closeNavErnest(){
+        document.getElementById("navErnest").style.width = "0%";
+      }
+  
+      function openNavRachel(){
+        document.getElementById("navRachel").style.width = "100%";
+      }
+  
+      function closeNavRachel(){
+        document.getElementById("navRachel").style.width = "0%";
+      }
+  
+      function openNavSarah(){
+        document.getElementById("navSarah").style.width = "100%";
+      }
+  
+      function closeNavSarah(){
+        document.getElementById("navSarah").style.width = "0%";
+      }
+  
+      function openNavBenny(){
+        document.getElementById("navBenny").style.width = "100%";
+      }
+  
+      function closeNavBenny(){
+        document.getElementById("navBenny").style.width = "0%";
+      }
+  
+      function openNavEmily(){
+        document.getElementById("navEmily").style.width = "100%";
+      }
+  
+      function closeNavEmily(){
+        document.getElementById("navEmily").style.width = "0%";
+      }
+  
+      function openNavHalley(){
+        document.getElementById("navHalley").style.width = "100%";
+      }
+  
+      function closeNavHalley(){
+        document.getElementById("navHalley").style.width = "0%";
+      }
+  
+      function landAcknowledgement() {
+        document.getElementById("text").innerHTML = "The University of Manitoba campuses are located on original lands of Anishinaabeg " +
+        "Cree, Oji-Cree, Dakota and Dene peoples, and on the homeland of the Métis Nation. We respect the Treaties that were made on these " +
+        "territories, we acknowledge the harms and mistakes of the past, and we dedicate ourselves to move forward in partnership with Indigenous" +
+        " communities in a spirit of reconciliation and collaboration.";
+        document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+      }
+  
+      function message(){
+        document.getElementById("text").innerHTML = "This academic year was like no other in living memory. In addition to the rigorous demands of " +
+        "completing a university-level art program, during this past year you also navigated a global pandemic, isolation from friends and family, and " +
+        "daily worries about your health. Yet you were able to sift through these many challenges and captured consequential moments, translated them, and" +
+        " brought them into the world with gorgeous, thought-provoking works that inspire people to keep thinking, keep looking, and keep moving forward.<br><br>" +
+        "Despite the difference of the format of this honour studio exhibition from prior years’ exhibitions, we are very pleased with the outcome, as it provides" + 
+        " a new opportunity for students to reach a wider audience and to provide a lasting document of your outstanding achievement.<br><br>" + 
+        "What you have done is nothing short of amazing. From all of us in the School of Art–Congratulations!<br><br>" + "Dr. Edward Jurkowski<br>Acting Director, School of Art";
+        document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+      }
+  
+      function school(){
+        document.getElementById("text").innerHTML = "The School of Art at the University of Manitoba offers dynamic programs where students gain hands-on experience" +
+        " across a broad range of artistic disciplines. Our focus is on preparing students for a successful career in the arts at a time when creativity, critical thinking " +
+        "and complex problem solving are in greatest demand.<br><br>"+
+        "Alumni of our MFA, BFA, Diploma of Art and BFA in Art History programs have gone on to thriving careers as visual artists, curators, designers, art historians, " +
+        "gallerists, educators, arts administrators, cultural workers and many other professions in media and technology.<br><br>" +
+        "At the School of Art, we approach visual learning through an interdisciplinary lens, where studio art and art history are integrated, ensuring students have a broad " +
+        "understanding of today’s rich contemporary art landscape and have the tools to build a strong career path.";
+        document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+      }
+  
+      function about(){
+        document.getElementById("text").innerHTML = "This exhibition features the work of graduating Honours students from the University of Manitoba’s School of Art. " +
+        "The site was designed by School of students Rachel Wagner and Ernest Zarzuela;developed and programmed by Computer Science student Harshal Bhalerao; with audio by Desautels Faculty of Music student Alison Burdeny.<br><br>" +
+        "This is the first online version of the School of Art’s BFA Exhibition— a tradition at the SoA since 2012 —and the online home for future BFA Exhibitions.<br><br>" +
+        "School of Art contact info: fineart@umanitoba.ca";
+  
+        document.getElementById("text").style = "text-decoration: none; color: black; cursor: arrow";
+      }
+  
+      animationToShape1 = document.getElementById("animation-to-shape1"),
+      animationToNormal1 = document.getElementById("animation-to-normal1");
+      document.getElementById('btn1').addEventListener('mouseenter', function(){
+        animationToShape1.beginElement();
+      });
+      document.getElementById('btn1').addEventListener('mouseleave', function(){
+        animationToNormal1.beginElement();
+      });
+  
+      animationToShape2 = document.getElementById("animation-to-shape2"),
+      animationToNormal2 = document.getElementById("animation-to-normal2");
+      document.getElementById('btn2').addEventListener('mouseenter', function(){
+        animationToShape2.beginElement();
+      });
+      document.getElementById('btn2').addEventListener('mouseleave', function(){
+        animationToNormal2.beginElement();
+      });
+  
+      animationToShape3 = document.getElementById("animation-to-shape3"),
+      animationToNormal3 = document.getElementById("animation-to-normal3");
+      document.getElementById('btn3').addEventListener('mouseenter', function(){
+        animationToShape3.beginElement();
+      });
+      document.getElementById('btn3').addEventListener('mouseleave', function(){
+        animationToNormal3.beginElement();
+      });
+  
+      animationToShape4 = document.getElementById("animation-to-shape4"),
+      animationToNormal4 = document.getElementById("animation-to-normal4");
+      document.getElementById('btn4').addEventListener('mouseenter', function(){
+        animationToShape4.beginElement();
+      });
+      document.getElementById('btn4').addEventListener('mouseleave', function(){
+        animationToNormal4.beginElement();
+      });
+  
+      animationToShape5 = document.getElementById("animation-to-shape5"),
+      animationToNormal5 = document.getElementById("animation-to-normal5");
+      document.getElementById('btn5').addEventListener('mouseenter', function(){
+        animationToShape5.beginElement();
+      });
+      document.getElementById('btn5').addEventListener('mouseleave', function(){
+        animationToNormal5.beginElement();
+      });
+  
+      animationToShape6 = document.getElementById("animation-to-shape6"),
+      animationToNormal6 = document.getElementById("animation-to-normal6");
+      document.getElementById('btn6').addEventListener('mouseenter', function(){
+        animationToShape6.beginElement();
+      });
+      document.getElementById('btn6').addEventListener('mouseleave', function(){
+        animationToNormal6.beginElement();
+      });
+  
+      animationToShape7 = document.getElementById("animation-to-shape7"),
+      animationToNormal7 = document.getElementById("animation-to-normal7");
+      document.getElementById('btn7').addEventListener('mouseenter', function(){
+        animationToShape7.beginElement();
+      });
+      document.getElementById('btn7').addEventListener('mouseleave', function(){
+        animationToNormal7.beginElement();
+      });
+  
+      animationToShape8 = document.getElementById("animation-to-shape8"),
+      animationToNormal8 = document.getElementById("animation-to-normal8");
+      document.getElementById('btn8').addEventListener('mouseenter', function(){
+        animationToShape8.beginElement();
+      });
+      document.getElementById('btn8').addEventListener('mouseleave', function(){
+        animationToNormal8.beginElement();
+      });
+  
+      animationToShape9 = document.getElementById("animation-to-shape9"),
+      animationToNormal9 = document.getElementById("animation-to-normal9");
+      document.getElementById('btn9').addEventListener('mouseenter', function(){
+        animationToShape9.beginElement();
+      });
+      document.getElementById('btn9').addEventListener('mouseleave', function(){
+        animationToNormal9.beginElement();
+      });
+  
+      animationToShape10 = document.getElementById("animation-to-shape10"),
+      animationToNormal10 = document.getElementById("animation-to-normal10");
+      document.getElementById('btn10').addEventListener('mouseenter', function(){
+        animationToShape10.beginElement();
+      });
+      document.getElementById('btn10').addEventListener('mouseleave', function(){
+        animationToNormal10.beginElement();
+      });
+  
+      animationToShape11 = document.getElementById("animation-to-shape11"),
+      animationToNormal11 = document.getElementById("animation-to-normal11");
+      document.getElementById('btn11').addEventListener('mouseenter', function(){
+        animationToShape11.beginElement();
+      });
+      document.getElementById('btn11').addEventListener('mouseleave', function(){
+        animationToNormal11.beginElement();
+      });
+  
+      animationToShape12 = document.getElementById("animation-to-shape12"),
+      animationToNormal12 = document.getElementById("animation-to-normal12");
+      document.getElementById('btn12').addEventListener('mouseenter', function(){
+        animationToShape12.beginElement();
+      });
+      document.getElementById('btn12').addEventListener('mouseleave', function(){
+        animationToNormal12.beginElement();
+      });
+  
+      animationToShape13 = document.getElementById("animation-to-shape13"),
+      animationToNormal13 = document.getElementById("animation-to-normal13");
+      document.getElementById('btn13').addEventListener('mouseenter', function(){
+        animationToShape13.beginElement();
+      });
+      document.getElementById('btn13').addEventListener('mouseleave', function(){
+        animationToNormal13.beginElement();
+      });
+  
+      animationToShape14 = document.getElementById("animation-to-shape14"),
+      animationToNormal14 = document.getElementById("animation-to-normal14");
+      document.getElementById('btn14').addEventListener('mouseenter', function(){
+        animationToShape14.beginElement();
+      });
+      document.getElementById('btn14').addEventListener('mouseleave', function(){
+        animationToNormal14.beginElement();
+      });
+  
+      animationToShape15 = document.getElementById("animation-to-shape15"),
+      animationToNormal15 = document.getElementById("animation-to-normal15");
+      document.getElementById('btn15').addEventListener('mouseenter', function(){
+        animationToShape15.beginElement();
+      });
+      document.getElementById('btn15').addEventListener('mouseleave', function(){
+        animationToNormal15.beginElement();
+      });
+  
+      animationToShape16 = document.getElementById("animation-to-shape16"),
+      animationToNormal16 = document.getElementById("animation-to-normal16");
+      document.getElementById('btn16').addEventListener('mouseenter', function(){
+        animationToShape16.beginElement();
+      });
+      document.getElementById('btn16').addEventListener('mouseleave', function(){
+        animationToNormal16.beginElement();
+      });
+  
+      animationToShape17 = document.getElementById("animation-to-shape17"),
+      animationToNormal17 = document.getElementById("animation-to-normal17");
+      document.getElementById('btn17').addEventListener('mouseenter', function(){
+        animationToShape17.beginElement();
+      });
+      document.getElementById('btn17').addEventListener('mouseleave', function(){
+        animationToNormal17.beginElement();
+      });
+  
+      animationToShape18 = document.getElementById("animation-to-shape18"),
+      animationToNormal18 = document.getElementById("animation-to-normal18");
+      document.getElementById('btn18').addEventListener('mouseenter', function(){
+        animationToShape18.beginElement();
+      });
+      document.getElementById('btn18').addEventListener('mouseleave', function(){
+        animationToNormal18.beginElement();
+      });
+  
+      var student1 = document.getElementById("studentAudio1"); 
+  
+      function playAudio1() { 
+        student1.play(); 
+      } 
+  
+      var student2 = document.getElementById("studentAudio2"); 
+  
+      function playAudio2() { 
+        student2.play(); 
+      } 
+  
+      var student3 = document.getElementById("studentAudio3"); 
+  
+      function playAudio3() { 
+        student3.play(); 
+      } 
+  
+      var student4 = document.getElementById("studentAudio4"); 
+  
+      function playAudio4() { 
+        student4.play(); 
+      } 
+  
+      var student5 = document.getElementById("studentAudio5"); 
+  
+      function playAudio5() { 
+        student5.play(); 
+      } 
+  
+      var student6 = document.getElementById("studentAudio6"); 
+  
+      function playAudio6() { 
+        student6.play(); 
+      } 
+  
+      var student7 = document.getElementById("studentAudio7"); 
+  
+      function playAudio7() { 
+        student7.play(); 
+      } 
+  
+      var student8 = document.getElementById("studentAudio8"); 
+  
+      function playAudio8() { 
+        student8.play(); 
+      } 
+  
+      var student9 = document.getElementById("studentAudio9"); 
+  
+      function playAudio9() { 
+        student9.play(); 
+      } 
+  
+      var student10 = document.getElementById("studentAudio10"); 
+  
+      function playAudio10() { 
+        student10.play(); 
+      } 
+  
+      var student11 = document.getElementById("studentAudio11"); 
+  
+      function playAudio11() { 
+        student11.play(); 
+      } 
+  
+      var student12 = document.getElementById("studentAudio12"); 
+  
+      function playAudio12() { 
+        student12.play(); 
+      } 
+      
+      var circle_audio = document.getElementById("circle"); 
+  
+      function playAudioCircle() { 
+        circle_audio.play(); 
+      } 
+  
+      var greenShape_audio = document.getElementById("greenShape"); 
+  
+      function playAudioGreenShape() { 
+        greenShape_audio.play(); 
+      } 
+      
+      var linkClick_audio = document.getElementById("linkClick"); 
+  
+      function playAudioLinkClick() { 
+        linkClick_audio.play(); 
+      } 
+
+      var linkClose_audio = document.getElementById("linkClose"); 
+  
+      function playAudioLinkClose() { 
+        linkClose_audio.play(); 
+      } 
+  </script>
+</body>
