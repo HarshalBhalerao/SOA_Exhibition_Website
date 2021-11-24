@@ -1,3 +1,5 @@
-# Link to the website:
+# Note:
 
-https://harshalbhalerao.github.io/SOA-Honours-Exhibition-Project/
+Website link: https://soaexhibitions.ca/
+
+Images and Audio not included in the repository as they belong to Students from Faculty of Arts and Music.
