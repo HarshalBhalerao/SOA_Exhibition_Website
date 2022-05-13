@@ -27,3 +27,6 @@ The website was built for **School of Arts at University of Manitoba** during th
 
 ## Student Page Template 2
 ![Template 2](./gifs/Template2.gif)
+
+## View on SmartPhone
+![ViewSmartPhone](./gifs/SmartPhone_View.gif)
