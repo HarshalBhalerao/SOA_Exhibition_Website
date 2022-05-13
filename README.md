@@ -4,6 +4,8 @@
 
 The website was built for **School of Arts at University of Manitoba** during the COVID-19 pandemic. The main intent was to provide an exhibition platform to exhibit art work of students from School of Arts.
 
+[SOA Exhibition Website Link](https://soaexhibitions.ca/)
+
 ## Tools and Technology
 
 - HTML
