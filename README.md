@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The website was built for **School of Arts at University of Manitoba** during the COVID-19 pandemic. The main intent is to provide an exhibition platform to exhibit art work of students from School of Arts.
+The website was built for **School of Arts at University of Manitoba** during the COVID-19 pandemic. The main intent was to provide an exhibition platform to exhibit art work of students from School of Arts.
 
 ## Tools and Technology
 
@@ -13,3 +13,17 @@ The website was built for **School of Arts at University of Manitoba** during th
 - Adobe Illustrator (Used for UI/UX Designing)
 
 > ⚠️ Images and Audio not included in the repository as they belong to Students from Faculty of Arts and Music.
+
+> ⚠️ I do not intend to show the art from the students from School of Arts. The art shown in the gifs below belongs to those students. The intent is to show the design and functionality of the website.
+
+## Intro Pages
+![Intro Pages](./gifs/IntroPages.gif)
+
+## Main Page
+![Main Page](./gifs/MainPage.gif)
+
+## Student Page Template 1
+![Template 1](./gifs/Template1.gif)
+
+## Student Page Template 2
+![Template 2](./gifs/Template2.gif)
