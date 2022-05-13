@@ -1,4 +1,4 @@
-# SOA Exhibition Website
+# 💻 SOA Exhibition Website 🎨
 
 ## Purpose
 
