@@ -7,6 +7,7 @@ The website was built for **School of Arts at University of Manitoba** during th
 [SOA Exhibition Website Link](https://soaexhibitions.ca/)
 
 Announcement of this website was made on the UM Today News
+
 [UM Today News Link](https://news.umanitoba.ca/now-live-2021-bfa-honours-exhibition-website/)
 
 ## Tools and Technology
